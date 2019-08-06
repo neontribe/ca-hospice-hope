@@ -1,4 +1,4 @@
-~ A contemplating action instance for Test
+~ A contemplating action instance for Hospice Hope
 
 ## Site URLs
 - [Staging](https://neontribe.github.io/ca-hospice-hope/)

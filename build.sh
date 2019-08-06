@@ -9,6 +9,7 @@ fi
 #Grab the core files
 git clone https://$GIT_USER:$GIT_PASS@github.com/neontribe/contemplating-action.git --branch 1.0/release
 #Copy the ones we want to retain from this repo
+cp LICENSE contemplating-action/LICENSE
 cp README.md contemplating-action/README.md
 cp src/Copy/BrandCopy.elm contemplating-action/src/Copy/BrandCopy.elm
 #Sync the files across - ignoring hidden files (like .travis.yml, .git dir etc)
