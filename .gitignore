@@ -1,0 +1,13 @@
+/*
+!.gitignore
+!.travis.yml
+!build.sh
+!README.md
+
+!src
+src/*
+!src/Copy
+src/Copy/*
+
+# Edit these only
+!src/Copy/BrandCopy.elm
