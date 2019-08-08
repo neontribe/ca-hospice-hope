@@ -177,24 +177,24 @@ brandCopy key =
                 ]
 
         PrivacyCookiesP1 ->
-            CopyText "✨"
+            CopyText "Google Analytics"
 
         PrivacyCookiesP2 ->
-            CopyText "✨"
+            CopyText "We use Google Analytics, which is a Google service that uses cookies and other data collection technologies to collect information about your use of the website and services in order to report website trends.\n"
 
         PrivacyCookiesList ->
-            CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
-                , "✨"
-                ]
+            CopyText "You can opt out of Google Analytics by visiting www.google.com/settings/ads or by downloading the Google Analytics opt-out browser add-on at https://tools.google.com/dlpage/gaoptout.\n"
 
         PrivacyTermsH3 ->
-            CopyText "✨"
+            CopyText "Typeform"
 
         PrivacyTermsP ->
-            CopyText "✨"
+            CopyWithLink
+                { textBefore = "When you contact us online to find out more information on Hospice Hope’s services you will submit your details through form provider Typeform. Typeform's privacy policy is available"
+                , linkText = "here."
+                , destination = "https://admin.typeform.com/to/dwk6gt"
+                , textAfter = " "
+                }
 
         -- Supporters Page
         SupportersTitleH2 ->
