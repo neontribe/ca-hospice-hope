@@ -7,10 +7,10 @@ brandCopy : Key -> Copy
 brandCopy key =
     case key of
         SiteTitle ->
-            CopyText "✨"
+            CopyText "Hospice Hope Stories"
 
         AppTitle ->
-            CopyText "Testing is my Passion"
+            CopyText "Hospice Hope Stories"
 
         CallToActionDestination ->
             CopyText "✨"
@@ -25,7 +25,7 @@ brandCopy key =
             CopyText "✨"
 
         ContentLinkLong ->
-            CopyText "✨"
+            CopyText "Show me the stories"
 
         ContentLinkMedium ->
             CopyText "✨"
@@ -58,16 +58,16 @@ brandCopy key =
             CopyText "✨"
 
         HomeReadAboutH2 ->
-            CopyText "Testing"
+            CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
         HomeBannerImageAlt ->
             CopyText "✨"
 
         HomeTalkToSomeoneH2 ->
-            CopyText "Testing"
+            CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
 
         HomeP1 ->
-            CopyText "Test Test Test Test Test Test Test Test Test Test Test Test Test Test."
+            CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeLinkDisplay ->
             CopyText "Test Test"
@@ -76,7 +76,7 @@ brandCopy key =
             CopyText "✨"
 
         HomeP2 ->
-            CopyText "Test Test Test Test Test Test Test Test Test Test Test."
+            CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
 
         -- Privacy Page
         PrivacyTitleH2 ->
@@ -178,46 +178,46 @@ brandCopy key =
 
         -- Supporters Page
         SupportersTitleH2 ->
-            CopyText "✨"
+            CopyText "Our Supporters"
 
         SupportersP1 ->
-            CopyText "✨"
+            CopyText "We would like to thank our funders, whose generosity has made this website possible."
 
         SupportersP2 ->
-            CopyText "✨"
+            CopyText "This web app was funded by CAST - Centre for Acceleration of Social Technology - as part of a project called Contemplating Action which is seeking to find out whether visual stories can help people overcome their fears and barriers to getting support. The project has produced an app that could be used by different charities to encourage people to reach out and get help by reassuring them that they are not alone."
 
         CastLogoAlt ->
-            CopyText "✨"
+            CopyText "Centre for accelerating social technology logo"
 
         ComicReliefLogoAlt ->
-            CopyText "✨"
+            CopyText "Comic relief logo"
 
         DepartmentForCultureLogoAlt ->
-            CopyText "✨"
+            CopyText "Department for culture and media logo"
 
         BigLotteryLogoAlt ->
-            CopyText "✨"
+            CopyText "Big lottery logo"
 
         SupportersP3 ->
-            CopyText "✨"
+            CopyText "The initial You Matter app which inspired Contemplating Action was part of Tech vs Abuse. This grant was funded through a joint funding initiative between the Tampon Tax Fund, a partnership between HM Government and Comic Relief, and the Big Lottery Fund."
 
         SupportersP4 ->
-            CopyText "✨"
+            CopyText "The original You Matter web app was developed by Neontribe and The Haven, together with women who have been victims of domestic abuse. The Haven is a Wolverhampton based charity which supports women and dependent children who are vulnerable to domestic violence, homelessness and abuse."
 
         NeontribeLogoAlt ->
-            CopyText "✨"
+            CopyText "Neontribe logo"
 
         HavenLogoAlt ->
-            CopyText "✨"
+            CopyText "Haven Wolverhampton Logo"
 
         SupportersP5 ->
-            CopyText "✨"
+            CopyText "This web app was built by Neontribe and Hospice Hope. This website has been developed by Neontribe and Hospice Hope, together with people living with life limiting conditions."
 
         FooterSupportersText ->
-            CopyText "✨"
+            CopyText "Find out about our"
 
         FooterSupportersLink ->
-            CopyText "✨"
+            CopyText "supporters"
 
         FooterPrivacyText ->
             CopyText "✨"
