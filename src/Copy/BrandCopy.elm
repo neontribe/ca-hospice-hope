@@ -37,7 +37,7 @@ brandCopy key =
             CopyText "✨"
 
         ContactLinkShort ->
-            CopyText "✨"
+            CopyText "u/"
 
         ContactLinkDestination ->
             CopyText "✨"

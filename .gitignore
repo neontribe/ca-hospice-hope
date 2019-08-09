@@ -8,8 +8,10 @@
 !src
 src/*
 !src/Copy
-!src/styles
 src/Copy/*
 
 # Edit these only
 !src/Copy/BrandCopy.elm
+!src/styles/theme.scss
+!src/styles/icons.scss
+!src/styles/fonts
