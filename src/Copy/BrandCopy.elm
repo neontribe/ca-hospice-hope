@@ -42,9 +42,6 @@ brandCopy key =
         ContactLinkDestination ->
             CopyText "\u{2728}"
 
-        ExitSite ->
-            CopyText "\u{2728}"
-
         IconCallToAction ->
             CopyText "\u{2728}"
 
@@ -52,9 +49,6 @@ brandCopy key =
             CopyText "\u{2728}"
 
         IconContact ->
-            CopyText "\u{2728}"
-
-        IconExit ->
             CopyText "\u{2728}"
 
         HomeReadAboutH2 ->
@@ -85,95 +79,126 @@ brandCopy key =
         PrivacyIntroP ->
             CopyText "\u{2728}"
 
-        PrivacyCompanyInfoList ->
+        PrivacyCompanyAddress ->
             CopyList
-                [ "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyDataCollectH3 ->
+        PrivacySectionOneH3 ->
             CopyText "\u{2728}"
 
-        PrivacyDataCollectP ->
+        PrivacySectionOneP ->
             CopyText "\u{2728}"
 
-        PrivacyDataCollectList ->
+        PrivacySectionOneList ->
             CopyList
-                [ "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyInfoUsedH3 ->
+        PrivacySectionTwoH3 ->
             CopyText "\u{2728}"
 
-        PrivacyInfoUsedP ->
+        PrivacySectionTwoP ->
             CopyText "\u{2728}"
 
-        PrivacyInfoUsedList ->
+        PrivacySectionTwoList ->
             CopyList
-                [ "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyInfoSharedH3 ->
+        PrivacySectionThreeH3 ->
             CopyText "\u{2728}"
 
-        PrivacyInfoSharedP1 ->
+        PrivacySectionThreeP1 ->
+            CopyText
+                "\u{2728}"
+
+        PrivacySectionThreeP2 ->
             CopyText "\u{2728}"
 
-        PrivacyInfoSharedP2 ->
-            CopyText "\u{2728}"
-
-        PrivacyInfoSharedList ->
+        PrivacySectionThreeList ->
             CopyList
-                [ "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyInfoStoredH3 ->
+        PrivacySectionFourH3 ->
             CopyText "\u{2728}"
 
-        PrivacyInfoStoredList ->
+        PrivacySectionFourP ->
+            CopyText "\u{2728}"
+
+        PrivacySectionFourList ->
             CopyList
-                [ "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
+                [ CopyText "\u{2728}"
+                , CopyWithLink
+                    { textBefore = "\u{2728}"
+                    , linkText = "\u{2728}"
+                    , destination = "\u{2728}"
+                    , textAfter = "\u{2728}"
+                    }
+                , CopyWithLink
+                    { textBefore = "\u{2728}"
+                    , linkText = "\u{2728}"
+                    , destination = "\u{2728}"
+                    , textAfter = "\u{2728}"
+                    }
+                , CopyWithLink
+                    { textBefore = "\u{2728}"
+                    , linkText = "\u{2728}"
+                    , destination = "\u{2728}"
+                    , textAfter = "\u{2728}"
+                    }
                 ]
 
-        PrivacyRightsH3 ->
+        PrivacySectionFiveH3 ->
             CopyText "\u{2728}"
 
-        PrivacyRightsP ->
+        PrivacySectionFiveP ->
+            CopyWithLink
+                { textBefore = "\u{2728}"
+                , linkText = "\u{2728}"
+                , destination = "\u{2728}"
+                , textAfter = "\u{2728}"
+                }
+
+        PrivacySectionFiveList ->
             CopyText "\u{2728}"
 
-        PrivacyCookiesH3 ->
+        PrivacySectionSixH3 ->
             CopyText "\u{2728}"
 
-        PrivacyCookiesP1 ->
+        PrivacySectionSixP1 ->
+            CopyText
+                "\u{2728}"
+
+        PrivacySectionSixP2 ->
             CopyText "\u{2728}"
 
-        PrivacyCookiesP2 ->
-            CopyText "\u{2728}"
-
-        PrivacyCookiesList ->
+        PrivacySectionSixList ->
             CopyList
-                [ "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
-                , "\u{2728}"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyTermsH3 ->
+        PrivacySectionSevenH3 ->
             CopyText "\u{2728}"
 
-        PrivacyTermsP ->
+        PrivacySectionSevenP ->
+            CopyText "\u{2728}"
+
+        PrivacySectionSevenList ->
             CopyText "\u{2728}"
 
         -- Supporters Page
@@ -334,10 +359,10 @@ brandCopy key =
             CopyText "\u{2728}"
 
         StoriesTeaserMoreLink title ->
-            CopyText ("\u{2728}")
+            CopyText "\u{2728}"
 
         StoryCardH3 cardId ->
-            CopyText ("\u{2728}")
+            CopyText "\u{2728}"
 
         StoryCardStartJourneyPrompt ->
             CopyText "\u{2728}"
@@ -413,6 +438,7 @@ brandCopy key =
 
         StoryTwo2Quote ->
             CopyText "\u{2728}"
+
         StoryTwo2ImageAlt ->
             CopyText "\u{2728}"
 
@@ -421,10 +447,12 @@ brandCopy key =
 
         StoryTwo3Quote ->
             CopyText "\u{2728}"
+
         StoryTwo3ImageAlt ->
             CopyText "\u{2728}"
 
         StoryTwo4Quote ->
             CopyText "\u{2728}"
+
         StoryTwo4ImageAlt ->
             CopyText "\u{2728}"

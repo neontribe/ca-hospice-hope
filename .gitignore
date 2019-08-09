@@ -9,6 +9,11 @@
 src/*
 !src/Copy
 src/Copy/*
+!src/styles
+src/styles/*
+!src/fonts
 
 # Edit these only
 !src/Copy/BrandCopy.elm
+!src/styles/theme.scss
+!src/styles/icons.css
