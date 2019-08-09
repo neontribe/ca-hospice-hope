@@ -13,55 +13,49 @@ brandCopy key =
             CopyText "Hospice Hope Stories"
 
         CallToActionDestination ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         CallToActionDestinationDisplay ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         CallToActionLong ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         CallToActionShort ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         ContentLinkLong ->
             CopyText "Show me the stories"
 
         ContentLinkMedium ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         ContentLinkShort ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         ContactLinkLong ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         ContactLinkShort ->
-            CopyText "u/"
+            CopyText "\u{2728}"
 
         ContactLinkDestination ->
-            CopyText "✨"
-
-        ExitSite ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         IconCallToAction ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         IconStories ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         IconContact ->
-            CopyText "✨"
-
-        IconExit ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         HomeReadAboutH2 ->
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
         HomeBannerImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         HomeTalkToSomeoneH2 ->
             CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
@@ -70,111 +64,142 @@ brandCopy key =
             CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeLinkDisplay ->
-            CopyText "Test Test"
+            CopyText "\u{2728}"
 
         HomeLinkDestination ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
 
         -- Privacy Page
         PrivacyTitleH2 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         PrivacyIntroP ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
-        PrivacyCompanyInfoList ->
+        PrivacyCompanyAddress ->
             CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
-                , "✨"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyDataCollectH3 ->
-            CopyText "✨"
+        PrivacySectionOneH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyDataCollectP ->
-            CopyText "✨"
+        PrivacySectionOneP ->
+            CopyText "\u{2728}"
 
-        PrivacyDataCollectList ->
+        PrivacySectionOneList ->
             CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyInfoUsedH3 ->
-            CopyText "✨"
+        PrivacySectionTwoH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyInfoUsedP ->
-            CopyText "✨"
+        PrivacySectionTwoP ->
+            CopyText "\u{2728}"
 
-        PrivacyInfoUsedList ->
+        PrivacySectionTwoList ->
             CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
-                , "✨"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyInfoSharedH3 ->
-            CopyText "✨"
+        PrivacySectionThreeH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyInfoSharedP1 ->
-            CopyText "✨"
+        PrivacySectionThreeP1 ->
+            CopyText
+                "\u{2728}"
 
-        PrivacyInfoSharedP2 ->
-            CopyText "✨"
+        PrivacySectionThreeP2 ->
+            CopyText "\u{2728}"
 
-        PrivacyInfoSharedList ->
+        PrivacySectionThreeList ->
             CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyInfoStoredH3 ->
-            CopyText "✨"
+        PrivacySectionFourH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyInfoStoredList ->
+        PrivacySectionFourP ->
+            CopyText "\u{2728}"
+
+        PrivacySectionFourList ->
             CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
-                , "✨"
+                [ CopyText "\u{2728}"
+                , CopyWithLink
+                    { textBefore = "\u{2728}"
+                    , linkText = "\u{2728}"
+                    , destination = "\u{2728}"
+                    , textAfter = "\u{2728}"
+                    }
+                , CopyWithLink
+                    { textBefore = "\u{2728}"
+                    , linkText = "\u{2728}"
+                    , destination = "\u{2728}"
+                    , textAfter = "\u{2728}"
+                    }
+                , CopyWithLink
+                    { textBefore = "\u{2728}"
+                    , linkText = "\u{2728}"
+                    , destination = "\u{2728}"
+                    , textAfter = "\u{2728}"
+                    }
                 ]
 
-        PrivacyRightsH3 ->
-            CopyText "✨"
+        PrivacySectionFiveH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyRightsP ->
-            CopyText "✨"
+        PrivacySectionFiveP ->
+            CopyWithLink
+                { textBefore = "\u{2728}"
+                , linkText = "\u{2728}"
+                , destination = "\u{2728}"
+                , textAfter = "\u{2728}"
+                }
 
-        PrivacyCookiesH3 ->
-            CopyText "✨"
+        PrivacySectionFiveList ->
+            CopyText "\u{2728}"
 
-        PrivacyCookiesP1 ->
-            CopyText "✨"
+        PrivacySectionSixH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyCookiesP2 ->
-            CopyText "✨"
+        PrivacySectionSixP1 ->
+            CopyText
+                "\u{2728}"
 
-        PrivacyCookiesList ->
+        PrivacySectionSixP2 ->
+            CopyText "\u{2728}"
+
+        PrivacySectionSixList ->
             CopyList
-                [ "✨"
-                , "✨"
-                , "✨"
-                , "✨"
+                [ CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
+                , CopyText "\u{2728}"
                 ]
 
-        PrivacyTermsH3 ->
-            CopyText "✨"
+        PrivacySectionSevenH3 ->
+            CopyText "\u{2728}"
 
-        PrivacyTermsP ->
-            CopyText "✨"
+        PrivacySectionSevenP ->
+            CopyText "\u{2728}"
+
+        PrivacySectionSevenList ->
+            CopyText "\u{2728}"
 
         -- Supporters Page
         SupportersTitleH2 ->
@@ -220,214 +245,214 @@ brandCopy key =
             CopyText "supporters"
 
         FooterPrivacyText ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         FooterPrivacyLink ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         FooterRegisteredText ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         FooterCopyrightLink ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoTitleH2 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoLikeMoreInfoLink ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoLikeOtherInfoLink ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoOtherInfoLink ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoNotFoundName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoNotFoundSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoNotFoundIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoNotFoundP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoNotFoundP2 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoOneName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoOneSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoOneIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoOneP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoTwoName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoTwoSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoTwoIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoTwoP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoThreeName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoThreeSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoThreeIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoThreeP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFourName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFourSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFourIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFourP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFiveName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFiveSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFiveIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoFiveP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoSixName ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoSixSlug ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoSixIcon ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         InfoSixP1 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoriesTitleH2 ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoriesTeaserMoreLink title ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryCardH3 cardId ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryCardStartJourneyPrompt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryNotFoundTitle ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryNotFoundTeaser ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryNotFoundQuote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryNotFoundImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryNotFoundMessage ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOneTitle ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOneTeaser ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOneTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne1Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne1ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne2Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne2ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne2Message ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne3Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne3ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne4Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne4ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryOne4Message ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwoTitle ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwoTeaser ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwoTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo1Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo1ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo2Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo2ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo2Message ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo3Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo3ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo4Quote ->
-            CopyText "✨"
+            CopyText "\u{2728}"
 
         StoryTwo4ImageAlt ->
-            CopyText "✨"
+            CopyText "\u{2728}"

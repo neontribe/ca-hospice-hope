@@ -12,6 +12,11 @@ git clone https://$GIT_USER:$GIT_PASS@github.com/neontribe/contemplating-action.
 cp LICENSE contemplating-action/LICENSE
 cp README.md contemplating-action/README.md
 cp src/Copy/BrandCopy.elm contemplating-action/src/Copy/BrandCopy.elm
+cp src/styles/icons.css contemplating-action/src/styles/icons.css
+cp src/styles/theme.scss contemplating-action/src/styles/theme.scss
+rm -rf contemplating-action/src/styles/fonts
+cp src/styles/fonts contemplating-action/src/styles/
+
 #Sync the files across - ignoring hidden files (like .travis.yml, .git dir etc)
 rsync -av --exclude=".*" contemplating-action/* .
 #Remove the copied files.
