@@ -60,6 +60,7 @@ $text-colour-alt: $brand-text-light;
 $interaction-colour: $brand-colour;
 $focus-colour: $brand-focus;
 $hover-colour: $brand-button-hover;
+$background-highlight: $brand-background-highlight
 
 /* ------------------------------
 
@@ -252,7 +253,7 @@ h5 {
 }
 .section--highlight {
   color: $text-colour;
-  background-color: $grey-light-purple;
+  background-color: $background-highlight;
 }
 
 /* ------------------------------
