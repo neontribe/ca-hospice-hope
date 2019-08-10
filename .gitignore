@@ -11,7 +11,7 @@ src/*
 src/Copy/*
 !src/styles
 src/styles/*
-!src/fonts
+!src/styles/fonts
 
 # Edit these only
 !src/Copy/BrandCopy.elm

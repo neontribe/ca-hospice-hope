@@ -1,29 +1,21 @@
 @font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  src: url('./fonts/Poppins-Medium.ttf') format('truetype'),
-    url('./fonts/poppins-medium-webfont.woff') format('woff'),
-    url('./fonts/poppins-medium-webfont.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: bold;
-  src: url('./fonts/Poppins-SemiBold.ttf') format('truetype'),
-    url('./fonts/poppins-semibold-webfont.woff') format('woff'),
-    url('./fonts/poppins-semibold-webfont.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
+  font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  src: url('./fonts/Poppins-Regular.ttf') format('truetype'),
-    url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
-    url('./fonts/poppins-regular-webfont.woff') format('woff');
+  src: url('./fonts/Lato-Regular.ttf') format('truetype'),
+    url('./fonts/Lato-Regular.woff') format('woff'),
+    url('./fonts/Lato-Regular.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  src: url('./fonts/Lato-Bold.ttf') format('truetype'),
+    url('./fonts/Lato-Bold.woff') format('woff'),
+    url('./fonts/Lato-Bold.woff2') format('woff2');
+}
+
 
 /* ------------------------------
 
@@ -32,6 +24,7 @@
 ------------------------------ */
 
 // Contemplating Action variables
+/*
 $purple: #662483;
 $purple-light: #8b1abc;
 $blue-darkest: #1a1e64;
@@ -42,6 +35,20 @@ $white: #f5f5f5;
 $grey-light: #eee;
 $grey-light-purple: #e4e1e7;
 $lime-green: #07c103;
+*/
+
+// Generic Variables
+$yellow: #FEDD00;
+$yellow-lightest: #FFEF82;
+$blue: #00418F;
+$blue-lightest: #C8DDF6;
+$blue-light: #407EC9;
+$blue-dark: #47195b;
+$black: #3C3C3B;
+$white: #fbfbfb;
+$grey-light: #F9F9F9;
+$grey: #F5F5F5;
+
 
 // Utility variables
 $white-pure: #ffffff;
@@ -49,11 +56,14 @@ $black-pure: #000000;
 $shadow: rgba(89, 97, 116, 0.4);
 
 // Theme colours
-$primary-colour: $blue-darkest;
-$secondary-colour: $blue-light;
+$primary-colour: $yellow;
+$secondary-colour: $blue;
 $text-colour: $black;
-$interaction-colour: $purple;
-$focus-colour: $lime-green;
+$text-colour-alt: $grey;
+$interaction-colour: $yellow;
+$focus-colour: $blue-light;
+$hover-colour: $yellow-lightest;
+$background-highlight: $blue-light;
 
 /* ------------------------------
 
@@ -61,13 +71,13 @@ $focus-colour: $lime-green;
 
 ------------------------------ */
 
-*:focus {
-  outline-color: $focus-colour;
+:focus {
+  outline: 3px solid $blue-light;
 }
 
 :root {
   font-size: 100%;
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Lato', 'Arial';
   line-height: 1.5;
 }
 
@@ -78,7 +88,7 @@ body {
 }
 
 p {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Lato', 'Arial';
 }
 
 h1,
@@ -87,7 +97,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Arial Rounded MT Bold', 'Arial';
 }
 
 .company-info {
@@ -128,7 +138,7 @@ h5 {
 
 .icon {
   color: $white;
-  background-color: $secondary-colour;
+  background-color: $primary-colour;
 }
 
 .icon--alternate {
@@ -146,7 +156,7 @@ h5 {
 }
 
 .title--alternate {
-  color: $primary-colour;
+  color: $text-colour;
 }
 
 /* ------------------------------
@@ -156,7 +166,7 @@ h5 {
 ------------------------------ */
 
 .link {
-  font-family: 'Poppins', 'Arial';
+  font-family: 'Lato', 'Arial';
   color: inherit;
   border-bottom: 2px solid currentColor;
   text-decoration: none;
@@ -168,14 +178,14 @@ h5 {
 }
 
 .link--plain {
-  color: $interaction-colour;
-  border-bottom-color: transparent;
+  color: $secondary-colour;
+  border-bottom-color: currentColor;
   font-weight: normal;
   text-decoration: none;
 
   &:hover,
   &:active {
-    color: $interaction-colour;
+    color: $blue-light;
     border-bottom-color: currentColor;
   }
 }
@@ -202,7 +212,7 @@ h5 {
 ------------------------------ */
 
 .button {
-  color: $white;
+  color: $text-colour;
   background-color: $interaction-colour;
   border-radius: 5em;
   font-size: 1.125rem;
@@ -213,18 +223,18 @@ h5 {
 .button:active,
 .button:focus,
 .button:hover {
-  background-color: $purple-light;
+  background-color: $hover-colour;
 }
 
 .button--alternate {
-  color: $white;
+  color: $text-colour;
   background-color: $interaction-colour;
 }
 
 .button--alternate:active,
 .button--alternate:focus,
 .button--alternate:hover {
-  background-color: $purple-light;
+  background-color: $hover-colour;
 }
 
 /* ------------------------------
@@ -234,7 +244,7 @@ h5 {
 ------------------------------ */
 
 .section {
-  background-color: $white;
+  background-color: $grey;
 }
 
 .section--darker {
@@ -246,7 +256,7 @@ h5 {
 }
 .section--highlight {
   color: $text-colour;
-  background-color: $grey-light-purple;
+  background-color: $background-highlight;
 }
 
 /* ------------------------------
@@ -260,12 +270,12 @@ h5 {
 }
 
 .nav-icon {
-  color: $white;
+  color: $text-colour;
 }
 
 .nav-item--text-only,
 .nav-item a {
-  color: $white;
+  color: $text-colour;
   text-decoration: none;
   font-weight: 600;
 }
@@ -342,12 +352,12 @@ h5 {
 .card {
   border-radius: 10px;
   font-size: 1rem;
-  background-color: $white;
+  background-color: $grey;
 }
 
 .card--alternate {
   color: $white-pure;
-  background-color: $primary-colour;
+  background-color: $secondary-colour;
 }
 
 /* ------------------------------
@@ -359,13 +369,13 @@ h5 {
 .info:active,
 .info:focus,
 .info:hover {
-  background-color: $purple;
+  background-color: $focus-colour;
 }
 
 /* Stops hover issue on iPad */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .info:hover {
-    background-color: $purple;
+    background-color: $focus-colour;
   }
 }
 
@@ -387,11 +397,12 @@ h5 {
 
 // Downward triangle below card
 .story:not(:last-child)::after {
-  border-top: 45px solid $white;
+  border-top: 45px solid $grey;
 }
 
 .story--message {
-  background-color: $white;
+  background-color: $yellow-lightest;
   color: $text-colour;
   font-size: 1rem;
+  font-weight: bold;
 }
