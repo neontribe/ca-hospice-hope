@@ -13,49 +13,49 @@ brandCopy key =
             CopyText "Hospice Hope Stories"
 
         CallToActionDestination ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         CallToActionDestinationDisplay ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         CallToActionLong ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         CallToActionShort ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         ContentLinkLong ->
             CopyText "Show me the stories"
 
         ContentLinkMedium ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         ContentLinkShort ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         ContactLinkLong ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         ContactLinkShort ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         ContactLinkDestination ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         IconCallToAction ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         IconStories ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         IconContact ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         HomeReadAboutH2 ->
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
         HomeBannerImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         HomeTalkToSomeoneH2 ->
             CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
@@ -64,142 +64,134 @@ brandCopy key =
             CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeLinkDisplay ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         HomeLinkDestination ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
 
         -- Privacy Page
         PrivacyTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "Privacy Policy and Cookies"
 
         PrivacyIntroP ->
-            CopyText "\u{2728}"
+            CopyWithLink
+                { textBefore = "Hospice Hope is committed to protecting your privacy online. This page explains how we collect information via Hospice Hope Stories website and what we do with it. This is in accordance with the"
+                , linkText = "Data Protection Act"
+                , destination = "https://www.gov.uk/government/collections/data-protection-act-2018"
+                , textAfter = "of 2018."
+                }
 
         PrivacyCompanyAddress ->
-            CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                ]
+            CopyText ""
 
         PrivacySectionOneH3 ->
-            CopyText "\u{2728}"
+            CopyText "What personal data do I have to give Hospice Hope?"
 
         PrivacySectionOneP ->
-            CopyText "\u{2728}"
+            CopyText "In connection with certain services offered through this site we may ask you to submit information such as your name and a way to contact you, either an email or telephone number. You are under no obligation to provide such information, however should you not provide such information we may not be able to offer you certain services."
 
         PrivacySectionOneList ->
-            CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                ]
+            CopyText ""
 
         PrivacySectionTwoH3 ->
-            CopyText "\u{2728}"
+            CopyText "How do I contact Hospice Hope with questions about this?"
 
         PrivacySectionTwoP ->
-            CopyText "\u{2728}"
+            CopyText "You can contact us on 07935 800 658 or email on administrator@hospicehope.org.uk if you have any questions."
 
         PrivacySectionTwoList ->
-            CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                ]
+            CopyText ""
 
         PrivacySectionThreeH3 ->
-            CopyText "\u{2728}"
+            CopyText "How is the data we collect used and why do we collect it?"
 
         PrivacySectionThreeP1 ->
-            CopyText
-                "\u{2728}"
+            CopyText "Hospice Hope uses the information you provide on the www.hospice-hope-stories.com site to:"
 
         PrivacySectionThreeP2 ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         PrivacySectionThreeList ->
             CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
+                [ CopyText "Improve improving our ability to serve you relevant content via cookies"
+                , CopyText "Use Google Analytics to help us understand and improve the efficiency of the service provided"
+                , CopyText "To contact you with any information you have requested about our services via a form provided by Typeform"
                 ]
 
         PrivacySectionFourH3 ->
-            CopyText "\u{2728}"
+            CopyText "Use of cookies"
 
-        PrivacySectionFourP ->
-            CopyText "\u{2728}"
+        PrivacySectionFourP1 ->
+            CopyText "Cookies are pieces of information that a website transfers to your hard drive. Most web browsers automatically accept cookies, but if you prefer, you can change your browser to prevent that. Hospice Hope uses cookies to:"
 
         PrivacySectionFourList ->
             CopyList
-                [ CopyText "\u{2728}"
-                , CopyWithLink
-                    { textBefore = "\u{2728}"
-                    , linkText = "\u{2728}"
-                    , destination = "\u{2728}"
-                    , textAfter = "\u{2728}"
-                    }
-                , CopyWithLink
-                    { textBefore = "\u{2728}"
-                    , linkText = "\u{2728}"
-                    , destination = "\u{2728}"
-                    , textAfter = "\u{2728}"
-                    }
-                , CopyWithLink
-                    { textBefore = "\u{2728}"
-                    , linkText = "\u{2728}"
-                    , destination = "\u{2728}"
-                    , textAfter = "\u{2728}"
-                    }
+                [ CopyText "Monitor the number of visitors to our website"
+                , CopyText "Monitor how users use our website, i.e. which pages they have accessed"
+                , CopyText "To help improve our website"
                 ]
 
-        PrivacySectionFiveH3 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionFiveP ->
+        PrivacySectionFourP2 ->
             CopyWithLink
-                { textBefore = "\u{2728}"
-                , linkText = "\u{2728}"
-                , destination = "\u{2728}"
-                , textAfter = "\u{2728}"
+                { textBefore = "For more data on Cookies visit"
+                , linkText = "www.aboutcookies.org.uk"
+                , destination = "http://www.aboutcookies.org.uk"
+                , textAfter = ". In addition to detailing extensive information on cookies this site also provides explanations on how to disable cookies on your computer."
                 }
 
-        PrivacySectionFiveList ->
-            CopyText "\u{2728}"
+        PrivacySectionFiveH3 ->
+            CopyText "Your data and third parties"
 
-        PrivacySectionSixH3 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionSixP1 ->
+        PrivacySectionFiveP ->
             CopyText
-                "\u{2728}"
+                "There are some third party service providers that Hospice Hope use for this site, which are as follows:"
 
-        PrivacySectionSixP2 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionSixList ->
+        PrivacySectionFiveList ->
             CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
+                [ CopyText "Google Analytics"
+                , CopyText "Typeform"
+                , CopyText "Neontribe Ltd."
                 ]
 
+        PrivacySectionSixH3 ->
+            CopyText ""
+
+        PrivacySectionSixList ->
+            CopyText ""
+
+        PrivacySectionSixP1 ->
+            CopyText "Google Analytics: We use Google Analytics, which is a Google service that uses cookies and other data collection technologies to collect information about your use of the website and services in order to report website trends."
+
+        PrivacySectionSixP2 ->
+            CopyWithLink
+                { textBefore = "Typeform: When you contact us online to find out more information on Hospice Hope’s services you will submit your details through form provider Typeform. Typeform's privacy policy is available at"
+                , linkText = "https://admin.typeform.com/to/dwk6gt"
+                , destination = "https://admin.typeform.com/dwk6gt"
+                , textAfter = "."
+                }
+
+        PrivacySectionSixP3 ->
+            CopyText "Neontribe: The website services provider, will be monitoring the success of the site via Google Analytics and will have access to the aggregated, anonymised Analytics data. They will also be monitoring the number of responses on Typeform but will not be able to view responses by the individuals\u{00A0} and do not process any collect in the form."
+
+        PrivacySectionSixP4 ->
+            CopyWithLink
+                { textBefore = "They are monitoring the site as part of a project called Contemplating Action, which is seeking to find out whether visual stories can help people overcome their fears and barriers to getting support from charities that could help. You can find out more about the project here -"
+                , linkText = "https://www.contemplatingaction.org.uk"
+                , destination = "https://www.contemplatingaction.org.uk"
+                , textAfter = "."
+                }
+
         PrivacySectionSevenH3 ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         PrivacySectionSevenP ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         PrivacySectionSevenList ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         -- Supporters Page
         SupportersTitleH2 ->
@@ -245,214 +237,214 @@ brandCopy key =
             CopyText "supporters"
 
         FooterPrivacyText ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         FooterPrivacyLink ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         FooterRegisteredText ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         FooterCopyrightLink ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoLikeMoreInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoLikeOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoNotFoundName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoNotFoundSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoNotFoundIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoNotFoundP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoNotFoundP2 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoOneName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoOneSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoOneIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoOneP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoTwoName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoTwoSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoTwoIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoTwoP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoThreeName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoThreeSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoThreeIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoThreeP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFourName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFourSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFourIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFourP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFiveName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFiveSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFiveIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoFiveP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoSixName ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoSixSlug ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoSixIcon ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         InfoSixP1 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoriesTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoriesTeaserMoreLink title ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryCardH3 cardId ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryCardStartJourneyPrompt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryNotFoundTitle ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryNotFoundTeaser ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryNotFoundQuote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryNotFoundImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryNotFoundMessage ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOneTitle ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOneTeaser ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOneTeaserImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne1Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne1ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne2Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne2ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne2Message ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne3Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne3ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne4Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne4ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryOne4Message ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwoTitle ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwoTeaser ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwoTeaserImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo1Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo1ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo2Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo2ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo2Message ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo3Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo3ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo4Quote ->
-            CopyText "\u{2728}"
+            CopyText "✨"
 
         StoryTwo4ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "✨"
