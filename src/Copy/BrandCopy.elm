@@ -257,61 +257,61 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "Bite-size information"
 
         InfoLikeMoreInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "I'd like some more information"
 
         InfoLikeOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "I'd like some other information"
 
         InfoOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "Other bite-size information to help you"
 
         InfoNotFoundName ->
-            CopyText "\u{2728}"
+            CopyText "Not found"
 
         InfoNotFoundSlug ->
-            CopyText "\u{2728}"
+            CopyText "not-found"
 
         InfoNotFoundIcon ->
             CopyText "\u{2728}"
 
         InfoNotFoundP1 ->
-            CopyText "\u{2728}"
+            CopyText "We can't find a page with that title, sorry."
 
         InfoNotFoundP2 ->
-            CopyText "\u{2728}"
+            CopyText "Please use the 'Other bite-size information to help you' page to see if we have the topic you are looking for."
 
         InfoOneName ->
-            CopyText "\u{2728}"
+            CopyText "Who comes to our sessions?"
 
         InfoOneSlug ->
-            CopyText "\u{2728}"
+            CopyText "who-comes"
 
         InfoOneIcon ->
             CopyText "\u{2728}"
 
         InfoOneP1 ->
-            CopyText "\u{2728}"
+            CopyText "The people who come to us all have illnesses that are seriously affecting their lives and are unlikely to get better. Each week we help  people continue to enjoy life through conversation and activities. Some sessions are for both those people and their carers, others are a chance for carers to take a break whilst we provide support. If you live in North-West Leicestershire and have an illness like parkinson's, chronic fatigue or cancer and you think we could help you get the most out of life contact us."
 
         InfoTwoName ->
-            CopyText "\u{2728}"
+            CopyText "What is Hope House?"
 
         InfoTwoSlug ->
-            CopyText "\u{2728}"
+            CopyText "hope-house"
 
         InfoTwoIcon ->
             CopyText "\u{2728}"
 
         InfoTwoP1 ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         InfoThreeName ->
-            CopyText "\u{2728}"
+            CopyText "What are our Support Cafes?"
 
         InfoThreeSlug ->
-            CopyText "\u{2728}"
+            CopyText "support-cafes"
 
         InfoThreeIcon ->
             CopyText "\u{2728}"
@@ -320,10 +320,10 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoFourName ->
-            CopyText "\u{2728}"
+            CopyText "Worried it’s not for you?"
 
         InfoFourSlug ->
-            CopyText "\u{2728}"
+            CopyText "worried-not-for-you"
 
         InfoFourIcon ->
             CopyText "\u{2728}"
@@ -332,10 +332,10 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoFiveName ->
-            CopyText "\u{2728}"
+            CopyText "Cost and other practicalities?"
 
         InfoFiveSlug ->
-            CopyText "\u{2728}"
+            CopyText "cost-and-practicalities"
 
         InfoFiveIcon ->
             CopyText "\u{2728}"
@@ -344,10 +344,10 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoSixName ->
-            CopyText "\u{2728}"
+            CopyText "When do sessions take place?"
 
         InfoSixSlug ->
-            CopyText "\u{2728}"
+            CopyText "when-sessions-take-place"
 
         InfoSixIcon ->
             CopyText "\u{2728}"
