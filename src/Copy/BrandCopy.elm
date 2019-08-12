@@ -284,7 +284,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoNotFoundIcon ->
-            CopyText "\u{2728}"
+            CopyText "question"
 
         InfoNotFoundContent ->
             CopyText "\u{2728}"
