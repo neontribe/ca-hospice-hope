@@ -19,25 +19,25 @@ brandCopy key =
             CopyText "\u{2728}"
 
         CallToActionLong ->
-            CopyText "\u{2728}"
+            CopyText "Call us"
 
         CallToActionShort ->
-            CopyText "\u{2728}"
+            CopyText "Call"
 
         ContentLinkLong ->
             CopyText "Show me the stories"
 
         ContentLinkMedium ->
-            CopyText "\u{2728}"
+            CopyText "Hope stories"
 
         ContentLinkShort ->
-            CopyText "\u{2728}"
+            CopyText "Stories"
 
         ContactLinkLong ->
-            CopyText "\u{2728}"
+            CopyText "Contact us"
 
         ContactLinkShort ->
-            CopyText "\u{2728}"
+            CopyText "Contact"
 
         ContactLinkDestination ->
             CopyText "\u{2728}"
