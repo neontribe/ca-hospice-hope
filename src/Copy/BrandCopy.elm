@@ -46,10 +46,10 @@ brandCopy key =
             CopyText "\u{2728}"
 
         IconStories ->
-            CopyText "\u{2728}"
+            CopyText "book"
 
         IconContact ->
-            CopyText "\u{2728}"
+            CopyText "note"
 
         HomeReadAboutH2 ->
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
@@ -296,7 +296,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoOneIcon ->
-            CopyText "\u{2728}"
+            CopyText "info"
 
         InfoOneContent ->
             CopyText "\u{2728}"
@@ -308,7 +308,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoTwoIcon ->
-            CopyText "\u{2728}"
+            CopyText "house"
 
         InfoTwoContent ->
             CopyText "\u{2728}"
@@ -320,7 +320,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoThreeIcon ->
-            CopyText "\u{2728}"
+            CopyText "coffee"
 
         InfoThreeContent ->
             CopyText "\u{2728}"
@@ -332,7 +332,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoFourIcon ->
-            CopyText "\u{2728}"
+            CopyText "people"
 
         InfoFourContent ->
             CopyText "\u{2728}"
@@ -344,7 +344,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoFiveIcon ->
-            CopyText "\u{2728}"
+            CopyText "pound"
 
         InfoFiveContent ->
             CopyText "\u{2728}"
@@ -356,7 +356,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoSixIcon ->
-            CopyText "\u{2728}"
+            CopyText "car"
 
         InfoSixContent ->
             CopyText "\u{2728}"
