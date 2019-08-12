@@ -74,141 +74,124 @@ brandCopy key =
 
         -- Privacy Page
         PrivacyTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "Privacy Policy and Cookies"
 
         PrivacyIntroP ->
-            CopyText "\u{2728}"
+            CopyWithLink
+                { textBefore = "Hospice Hope is committed to protecting your privacy online. This page explains how we collect information via Hospice Hope Stories website and what we do with it. This is in accordance with the"
+                , linkText = "Data Protection Act"
+                , destination = "https://www.gov.uk/government/collections/data-protection-act-2018"
+                , textAfter = "of 2018."
+                }
 
         PrivacyCompanyAddress ->
-            CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                ]
+            CopyText ""
 
         PrivacySectionOneH3 ->
-            CopyText "\u{2728}"
+            CopyText "What personal data do I have to give Hospice Hope?"
 
         PrivacySectionOneP ->
-            CopyText "\u{2728}"
+            CopyText "In connection with certain services offered through this site we may ask you to submit information such as your name and a way to contact you, either an email or telephone number. You are under no obligation to provide such information, however should you not provide such information we may not be able to offer you certain services."
 
         PrivacySectionOneList ->
-            CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                ]
+            CopyText ""
 
         PrivacySectionTwoH3 ->
-            CopyText "\u{2728}"
+            CopyText "How do I contact Hospice Hope with questions about this?"
 
         PrivacySectionTwoP ->
-            CopyText "\u{2728}"
+            CopyText "You can contact us on 07935 800 658 or email on administrator@hospicehope.org.uk if you have any questions."
 
         PrivacySectionTwoList ->
-            CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                ]
+            CopyText ""
 
         PrivacySectionThreeH3 ->
-            CopyText "\u{2728}"
+            CopyText "How is the data we collect used and why do we collect it?"
 
         PrivacySectionThreeP1 ->
-            CopyText
-                "\u{2728}"
+            CopyText "Hospice Hope uses the information you provide on the www.hospice-hope-stories.com site to:"
 
         PrivacySectionThreeP2 ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         PrivacySectionThreeList ->
             CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
+                [ CopyText "Improve improving our ability to serve you relevant content via cookies"
+                , CopyText "Use Google Analytics to help us understand and improve the efficiency of the service provided"
+                , CopyText "To contact you with any information you have requested about our services via a form provided by Typeform"
                 ]
 
         PrivacySectionFourH3 ->
-            CopyText "\u{2728}"
+            CopyText "Use of cookies"
 
         PrivacySectionFourP1 ->
-            CopyText "\u{2728}"
+            CopyText "Cookies are pieces of information that a website transfers to your hard drive. Most web browsers automatically accept cookies, but if you prefer, you can change your browser to prevent that. Hospice Hope uses cookies to:"
 
         PrivacySectionFourList ->
             CopyList
-                [ CopyText "\u{2728}"
-                , CopyWithLink
-                    { textBefore = "\u{2728}"
-                    , linkText = "\u{2728}"
-                    , destination = "\u{2728}"
-                    , textAfter = "\u{2728}"
-                    }
-                , CopyWithLink
-                    { textBefore = "\u{2728}"
-                    , linkText = "\u{2728}"
-                    , destination = "\u{2728}"
-                    , textAfter = "\u{2728}"
-                    }
-                , CopyWithLink
-                    { textBefore = "\u{2728}"
-                    , linkText = "\u{2728}"
-                    , destination = "\u{2728}"
-                    , textAfter = "\u{2728}"
-                    }
+                [ CopyText "Monitor the number of visitors to our website"
+                , CopyText "Monitor how users use our website, i.e. which pages they have accessed"
+                , CopyText "To help improve our website"
                 ]
 
         PrivacySectionFourP2 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionFiveH3 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionFiveP ->
             CopyWithLink
-                { textBefore = "\u{2728}"
-                , linkText = "\u{2728}"
-                , destination = "\u{2728}"
-                , textAfter = "\u{2728}"
+                { textBefore = "For more data on Cookies visit"
+                , linkText = "www.aboutcookies.org.uk"
+                , destination = "http://www.aboutcookies.org.uk"
+                , textAfter = ". In addition to detailing extensive information on cookies this site also provides explanations on how to disable cookies on your computer."
                 }
 
-        PrivacySectionFiveList ->
-            CopyText "\u{2728}"
+        PrivacySectionFiveH3 ->
+            CopyText "Your data and third parties"
 
-        PrivacySectionSixH3 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionSixP1 ->
+        PrivacySectionFiveP ->
             CopyText
-                "\u{2728}"
+                "There are some third party service providers that Hospice Hope use for this site, which are as follows:"
 
-        PrivacySectionSixP2 ->
-            CopyText "\u{2728}"
-
-        PrivacySectionSixList ->
+        PrivacySectionFiveList ->
             CopyList
-                [ CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
-                , CopyText "\u{2728}"
+                [ CopyText "Google Analytics"
+                , CopyText "Typeform"
+                , CopyText "Neontribe Ltd."
                 ]
 
+        PrivacySectionSixH3 ->
+            CopyText ""
+
+        PrivacySectionSixList ->
+            CopyText ""
+
+        PrivacySectionSixP1 ->
+            CopyText "Google Analytics: We use Google Analytics, which is a Google service that uses cookies and other data collection technologies to collect information about your use of the website and services in order to report website trends."
+
+        PrivacySectionSixP2 ->
+            CopyWithLink
+                { textBefore = "Typeform: When you contact us online to find out more information on Hospice Hope’s services you will submit your details through form provider Typeform. Typeform's privacy policy is available at"
+                , linkText = "https://admin.typeform.com/to/dwk6gt"
+                , destination = "https://admin.typeform.com/dwk6gt"
+                , textAfter = "."
+                }
+
         PrivacySectionSixP3 ->
-            CopyText "\u{2728}"
+            CopyText "Neontribe: The website services provider, will be monitoring the success of the site via Google Analytics and will have access to the aggregated, anonymised Analytics data. They will also be monitoring the number of responses on Typeform but will not be able to view responses by the individuals\u{00A0} and do not process any collect in the form."
 
         PrivacySectionSixP4 ->
-            CopyText "\u{2728}"
+            CopyWithLink
+                { textBefore = "They are monitoring the site as part of a project called Contemplating Action, which is seeking to find out whether visual stories can help people overcome their fears and barriers to getting support from charities that could help. You can find out more about the project here -"
+                , linkText = "https://www.contemplatingaction.org.uk"
+                , destination = "https://www.contemplatingaction.org.uk"
+                , textAfter = "."
+                }
 
         PrivacySectionSevenH3 ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         PrivacySectionSevenP ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         PrivacySectionSevenList ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         -- Supporters Page
         SupportersTitleH2 ->
@@ -254,112 +237,152 @@ brandCopy key =
             CopyText "supporters"
 
         FooterPrivacyText ->
-            CopyText "\u{2728}"
+            CopyText "Read our"
 
         FooterPrivacyLink ->
-            CopyText "\u{2728}"
+            CopyText "privacy policy"
 
         FooterRegisteredText ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         FooterCopyrightLink ->
-            CopyText "\u{2728}"
+            CopyText "www.hospicehope.org.uk"
 
         InfoTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "Bite-size information"
 
         InfoLikeMoreInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "I'd like some more information"
 
         InfoLikeOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "I'd like some other information"
 
         InfoOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "Other bite-size information to help you"
 
         InfoNotFoundName ->
-            CopyText "\u{2728}"
+            CopyText "Not found"
 
         InfoNotFoundSlug ->
-            CopyText "\u{2728}"
+            CopyText "not-found"
 
         InfoNotFoundIcon ->
             CopyText "question"
 
         InfoNotFoundContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "We can't find a page with that title, sorry."
+                , CopyText "Please use the 'Other bite-size information to help you' page to see if we have the topic you are looking for."
+                ]
 
         InfoOneName ->
-            CopyText "\u{2728}"
+            CopyText "Who comes to our sessions?"
 
         InfoOneSlug ->
-            CopyText "\u{2728}"
+            CopyText "who-comes"
 
         InfoOneIcon ->
             CopyText "info"
 
         InfoOneContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "The people who come to us all have illnesses that are seriously affecting their lives and are unlikely to get better."
+                , CopyText "Each week we help people continue to enjoy life through conversation and activities. Some sessions are for both those people and their carers, others are a chance for carers to take a break whilst we provide support."
+                , CopyText "If you live in North-West Leicestershire and have an illness like parkinson's, chronic fatigue or cancer and you think we could help you get the most out of life contact us."
+                ]
 
         InfoTwoName ->
-            CopyText "\u{2728}"
+            CopyText "What is Hope House?"
 
         InfoTwoSlug ->
-            CopyText "\u{2728}"
+            CopyText "hope-house"
 
         InfoTwoIcon ->
             CopyText "house"
 
         InfoTwoContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "Hope House is a day therapy service that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
+                , CopyList
+                    [ CopyText "Talk to our trained staff and volunteers about your worries"
+                    , CopyText "Take part in one of the planned activities like relaxation, exercise, gardening or arts and crafts"
+                    , CopyText "Have a relaxing massage"
+                    , CopyText "Chat with other people going through similar experiences to you"
+                    ]
+                , CopyText "Talk to a team member to find out if day therapy sessions are the right fit for you."
+                ]
 
         InfoThreeName ->
-            CopyText "\u{2728}"
+            CopyText "What are our Support Cafes?"
 
         InfoThreeSlug ->
-            CopyText "\u{2728}"
+            CopyText "support-cafes"
 
         InfoThreeIcon ->
             CopyText "coffee"
 
         InfoThreeContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "If you or your friends and family are feeling overwhelmed in the face of your illness, our cafes can help."
+                , CopyList
+                    [ CopyText "These are drop in sessions where you can spend a couple of hours chatting to our trained staff and volunteers about local support or your worries;"
+                    , CopyText "taking part in a planned activities like relaxation, exercise, gardening or arts and crafts;"
+                    , CopyText "or simply relaxing in a different place and enjoying a cuppa and a chat."
+                    ]
+                ]
 
         InfoFourName ->
-            CopyText "\u{2728}"
+            CopyText "Worried it’s not for you?"
 
         InfoFourSlug ->
-            CopyText "\u{2728}"
+            CopyText "worried-not-for-you"
 
         InfoFourIcon ->
             CopyText "people"
 
         InfoFourContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "Lots of people tell us they’re worried that everyone here will be older than me. But people of all ages find themselves dealing with an unexpected illness. People here will probably be more like you than you think."
+                , CopyText "Many people hate the idea of being forced into group activity. We promise that won’t happen. You choose when to take part, and when to take time on your own or just to chat. You can spend the whole time simply relaxing if you like."
+                ]
 
         InfoFiveName ->
-            CopyText "\u{2728}"
+            CopyText "Cost and other practicalities?"
 
         InfoFiveSlug ->
-            CopyText "\u{2728}"
+            CopyText "cost-and-practicalities"
 
         InfoFiveIcon ->
             CopyText "pound"
 
         InfoFiveContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "Hospice Hope’s services do not cost anything, even lunches and refreshments are free. If you can afford to make a donation you may, but it is not expected."
+                , CopyText "Free transport is provided. Even if you can still use your own car, you may prefer to have a volunteer driver pick you up as there is no parking at Hope House and limited parking at the Support Cafes. "
+                ]
 
         InfoSixName ->
-            CopyText "\u{2728}"
+            CopyText "When do sessions take place?"
 
         InfoSixSlug ->
-            CopyText "\u{2728}"
+            CopyText "when-sessions-take-place"
 
         InfoSixIcon ->
             CopyText "car"
 
         InfoSixContent ->
-            CopyText "\u{2728}"
+            CopySection
+                [ CopyText "Hope House"
+                , CopyText "Sessions are on Mondays and Thursdays between 10.30am and 3.30pm. Some people come regularly and others less often. Please contact us to work out whether these sessions are the right fit for you."
+                , CopyText "Support Cafes"
+                , CopyText "There’s no need to book, just drop in!"
+                , CopyList
+                    [ CopyText "Monday from 1.30pm to 4pm at the Hub, Bondgate, Castle Donington, DE74 2NR"
+                    , CopyText "Tuesday from 1.30pm to 4pm at the Methodist Church, Melbourne Road, Ibstock, LE67 6JS"
+                    , CopyText "Wednesday from 1.30pm to 4pm at the Methodist Church, Hall Lane, Whitwick, LE67 5PF"
+                    , CopyText "Friday from 1.30pm to 4pm at the Legion House, South Street, Ashby de la Zouch, LE65 1BQ"
+                    ]
+                ]
 
         StoriesTitleH2 ->
             CopyText "\u{2728}"
