@@ -134,7 +134,7 @@ brandCopy key =
         PrivacySectionFourH3 ->
             CopyText "\u{2728}"
 
-        PrivacySectionFourP ->
+        PrivacySectionFourP1 ->
             CopyText "\u{2728}"
 
         PrivacySectionFourList ->
@@ -159,6 +159,9 @@ brandCopy key =
                     , textAfter = "\u{2728}"
                     }
                 ]
+
+        PrivacySectionFourP2 ->
+            CopyText "\u{2728}"
 
         PrivacySectionFiveH3 ->
             CopyText "\u{2728}"
@@ -191,6 +194,12 @@ brandCopy key =
                 , CopyText "\u{2728}"
                 , CopyText "\u{2728}"
                 ]
+
+        PrivacySectionSixP3 ->
+            CopyText "\u{2728}"
+
+        PrivacySectionSixP4 ->
+            CopyText "\u{2728}"
 
         PrivacySectionSevenH3 ->
             CopyText "\u{2728}"
@@ -277,10 +286,7 @@ brandCopy key =
         InfoNotFoundIcon ->
             CopyText "\u{2728}"
 
-        InfoNotFoundP1 ->
-            CopyText "\u{2728}"
-
-        InfoNotFoundP2 ->
+        InfoNotFoundContent ->
             CopyText "\u{2728}"
 
         InfoOneName ->
@@ -292,7 +298,7 @@ brandCopy key =
         InfoOneIcon ->
             CopyText "\u{2728}"
 
-        InfoOneP1 ->
+        InfoOneContent ->
             CopyText "\u{2728}"
 
         InfoTwoName ->
@@ -304,7 +310,7 @@ brandCopy key =
         InfoTwoIcon ->
             CopyText "\u{2728}"
 
-        InfoTwoP1 ->
+        InfoTwoContent ->
             CopyText "\u{2728}"
 
         InfoThreeName ->
@@ -316,7 +322,7 @@ brandCopy key =
         InfoThreeIcon ->
             CopyText "\u{2728}"
 
-        InfoThreeP1 ->
+        InfoThreeContent ->
             CopyText "\u{2728}"
 
         InfoFourName ->
@@ -328,7 +334,7 @@ brandCopy key =
         InfoFourIcon ->
             CopyText "\u{2728}"
 
-        InfoFourP1 ->
+        InfoFourContent ->
             CopyText "\u{2728}"
 
         InfoFiveName ->
@@ -340,7 +346,7 @@ brandCopy key =
         InfoFiveIcon ->
             CopyText "\u{2728}"
 
-        InfoFiveP1 ->
+        InfoFiveContent ->
             CopyText "\u{2728}"
 
         InfoSixName ->
@@ -352,7 +358,7 @@ brandCopy key =
         InfoSixIcon ->
             CopyText "\u{2728}"
 
-        InfoSixP1 ->
+        InfoSixContent ->
             CopyText "\u{2728}"
 
         StoriesTitleH2 ->
