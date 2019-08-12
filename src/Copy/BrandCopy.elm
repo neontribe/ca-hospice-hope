@@ -385,7 +385,7 @@ brandCopy key =
                 ]
                 
         StoriesTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "Stories"
 
         StoriesTeaserMoreLink title ->
             CopyText "\u{2728}"
@@ -394,7 +394,7 @@ brandCopy key =
             CopyText "\u{2728}"
 
         StoryCardStartJourneyPrompt ->
-            CopyText "\u{2728}"
+            CopyText "Everyone's story is different, but you will find someone who can support you. Start your journey now."
 
         StoryNotFoundTitle ->
             CopyText "\u{2728}"
@@ -412,76 +412,76 @@ brandCopy key =
             CopyText "\u{2728}"
 
         StoryOneTitle ->
-            CopyText "\u{2728}"
+            CopyText "Shane's Story"
 
         StoryOneTeaser ->
-            CopyText "\u{2728}"
+            CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day therapy at Hope House. "
 
         StoryOneTeaserImageAlt ->
             CopyText "\u{2728}"
 
         StoryOne1Quote ->
-            CopyText "\u{2728}"
+            CopyText "I have Wolfram syndrome, a rare genetic disorder, and can go through phases of feeling a little bit down or where life seems a bit too much, even with the support of Toby my service dog."
 
         StoryOne1ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
 
         StoryOne2Quote ->
-            CopyText "\u{2728}"
+            CopyText "I found out about Hope House through a friend that used to be my befriender – the person who matched us in her previous job had started working there! I googled it, read about it, and then got in contact."
 
         StoryOne2ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "Drawing of a man Googling Hope House. There is a frame of Toby his dog in the background."
 
         StoryOne2Message ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         StoryOne3Quote ->
-            CopyText "\u{2728}"
+            CopyText "Before I came I was worried about the noise and what it would feel like, I didn’t know what to expect. But I was looking forward to meeting people.  And when I came it felt like a home from home."
 
         StoryOne3ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "Two illustrations side by side. One of a man looking worried and covering his ears. Another of a happy man eating a delicious roast dinner."
 
         StoryOne4Quote ->
-            CopyText "\u{2728}"
+            CopyText "Coming to Hospice Hope has given me something really good and new to do, it's so nice here and I like the fresh air, food, volunteers/staff and all the laughs we have!  There’s hope here and I’ll continue to come."
 
         StoryOne4ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText " Illustrations of two people happily chatting. Shane’s service dog is sitting by his side. "
 
         StoryOne4Message ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         StoryTwoTitle ->
-            CopyText "\u{2728}"
+            CopyText "Hazel and Colin’s story"
 
         StoryTwoTeaser ->
-            CopyText "\u{2728}"
+            CopyText "After Hazel’s husband Colin was diagnosed with Progressive Supranuclear Palsy they both struggled to adjust and needed a little extra support."
 
         StoryTwoTeaserImageAlt ->
             CopyText "\u{2728}"
 
         StoryTwo1Quote ->
-            CopyText "\u{2728}"
+            CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks. "
 
         StoryTwo1ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
 
         StoryTwo2Quote ->
-            CopyText "\u{2728}"
+            CopyText "Having driven past Hall Lane Methodist Church many times and seen the board advertising the Support Cafe, one day I stopped, and my husband and I ventured in, thinking it was somewhere to enjoy a cup of tea. We found a warm welcome and discovered a place Colin could come every Wednesday for tea, cake, company and support."
 
         StoryTwo2ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "A woman discovers a poster for the support cafe on a noticeboard."
 
         StoryTwo2Message ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         StoryTwo3Quote ->
-            CopyText "\u{2728}"
+            CopyText "From the start I was able to leave Colin to enjoy a game of dominoes while I had a little time to myself and a chance to sort out doctors appointments etc. Soon he started going to two support cafes a week and to Hope House one day a week as well."
 
         StoryTwo3ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "A woman smiling whilst getting her hair cut."
 
         StoryTwo4Quote ->
-            CopyText "\u{2728}"
+            CopyText "Support Cafes and Hope House were a lifeline for not only for Colin , but for me as well. Sadly Colin died earlier this year, but I still benefit and love attending Coalville and Whitwick Support Cafe every Wednesday."
 
         StoryTwo4ImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "A woman enters the support cafe waving at other people attending."
