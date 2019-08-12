@@ -2,20 +2,28 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  src: url('./fonts/Lato-Regular.ttf') format('truetype'),
-    url('./fonts/Lato-Regular.woff') format('woff'),
-    url('./fonts/Lato-Regular.woff2') format('woff2');
+  src: url('./fonts/lato-regular.eot'); /* IE9 */
+  src: url('./fonts/lato-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/lato-regular.ttf') format('truetype'); /* Mobile */
 }
 
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
-  src: url('./fonts/Lato-Bold.ttf') format('truetype'),
-    url('./fonts/Lato-Bold.woff') format('woff'),
-    url('./fonts/Lato-Bold.woff2') format('woff2');
+  src: url('./fonts/lato-bold.eot'); /* IE9 */
+  src: url('./fonts/lato-bold.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/lato-bold.ttf') format('truetype'); /* Mobile */
 }
 
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: black;
+  src: url('./fonts/nunito-black.eot'); /* IE9 */
+  src: url('./fonts/nunito-black.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/nunito-black.ttf') format('truetype'); /* Mobile */
+}
 
 /* ------------------------------
 
@@ -77,7 +85,7 @@ $background-highlight: $blue-light;
 
 :root {
   font-size: 100%;
-  font-family: 'Lato', 'Arial';
+  font-family: 'Lato', sans-serif;
   line-height: 1.5;
 }
 
@@ -88,7 +96,7 @@ body {
 }
 
 p {
-  font-family: 'Lato', 'Arial';
+  font-family: 'Lato', sans-serif;
 }
 
 h1,
@@ -97,7 +105,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Arial Rounded MT Bold', 'Arial';
+  font-family: 'Lato', sans-serif;
 }
 
 .company-info {
@@ -107,6 +115,8 @@ h6 {
 
 h1 {
   font-size: 1.75em;
+  font-family: 'Nunito', 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 h2 {
@@ -137,7 +147,7 @@ h5 {
 ------------------------------ */
 
 .icon {
-  color: $white;
+  color: $text-colour;
   background-color: $primary-colour;
 }
 
@@ -166,7 +176,7 @@ h5 {
 ------------------------------ */
 
 .link {
-  font-family: 'Lato', 'Arial';
+  font-family: 'Lato', sans-serif;
   color: inherit;
   border-bottom: 2px solid currentColor;
   text-decoration: none;

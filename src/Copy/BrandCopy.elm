@@ -46,10 +46,10 @@ brandCopy key =
             CopyText "\u{2728}"
 
         IconStories ->
-            CopyText "\u{2728}"
+            CopyText "book"
 
         IconContact ->
-            CopyText "\u{2728}"
+            CopyText "note"
 
         HomeReadAboutH2 ->
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
@@ -267,7 +267,7 @@ brandCopy key =
             CopyText "not-found"
 
         InfoNotFoundIcon ->
-            CopyText "\u{2728}"
+            CopyText "question"
 
         InfoNotFoundContent ->
             CopySection
@@ -282,14 +282,14 @@ brandCopy key =
             CopyText "who-comes"
 
         InfoOneIcon ->
-            CopyText "\u{2728}"
+            CopyText "info"
 
         InfoOneContent ->
             CopySection
                 [ CopyText "The people who come to us all have illnesses that are seriously affecting their lives and are unlikely to get better."
                 , CopyText "Each week we help people continue to enjoy life through conversation and activities. Some sessions are for both those people and their carers, others are a chance for carers to take a break whilst we provide support."
                 , CopyText "If you live in North-West Leicestershire and have an illness like parkinson's, chronic fatigue or cancer and you think we could help you get the most out of life contact us."
-            ]
+                ]
 
         InfoTwoName ->
             CopyText "What is Hope House?"
@@ -298,13 +298,13 @@ brandCopy key =
             CopyText "hope-house"
 
         InfoTwoIcon ->
-            CopyText "\u{2728}"
+            CopyText "house"
 
         InfoTwoContent ->
             CopySection
                 [ CopyText "Hope House is a day therapy service that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
-                , CopyList 
-                    [CopyText "Talk to our trained staff and volunteers about your worries"
+                , CopyList
+                    [ CopyText "Talk to our trained staff and volunteers about your worries"
                     , CopyText "Take part in one of the planned activities like relaxation, exercise, gardening or arts and crafts"
                     , CopyText "Have a relaxing massage"
                     , CopyText "Chat with other people going through similar experiences to you"
@@ -319,13 +319,13 @@ brandCopy key =
             CopyText "support-cafes"
 
         InfoThreeIcon ->
-            CopyText "\u{2728}"
+            CopyText "coffee"
 
         InfoThreeContent ->
             CopySection
-                [CopyText "If you or your friends and family are feeling overwhelmed in the face of your illness, our cafes can help."
+                [ CopyText "If you or your friends and family are feeling overwhelmed in the face of your illness, our cafes can help."
                 , CopyList
-                    [CopyText "These are drop in sessions where you can spend a couple of hours chatting to our trained staff and volunteers about local support or your worries;"
+                    [ CopyText "These are drop in sessions where you can spend a couple of hours chatting to our trained staff and volunteers about local support or your worries;"
                     , CopyText "taking part in a planned activities like relaxation, exercise, gardening or arts and crafts;"
                     , CopyText "or simply relaxing in a different place and enjoying a cuppa and a chat."
                     ]
@@ -338,7 +338,7 @@ brandCopy key =
             CopyText "worried-not-for-you"
 
         InfoFourIcon ->
-            CopyText "\u{2728}"
+            CopyText "people"
 
         InfoFourContent ->
             CopySection
@@ -353,7 +353,7 @@ brandCopy key =
             CopyText "cost-and-practicalities"
 
         InfoFiveIcon ->
-            CopyText "\u{2728}"
+            CopyText "pound"
 
         InfoFiveContent ->
             CopySection
@@ -368,7 +368,7 @@ brandCopy key =
             CopyText "when-sessions-take-place"
 
         InfoSixIcon ->
-            CopyText "\u{2728}"
+            CopyText "car"
 
         InfoSixContent ->
             CopySection
@@ -383,7 +383,7 @@ brandCopy key =
                     , CopyText "Friday from 1.30pm to 4pm at the Legion House, South Street, Ashby de la Zouch, LE65 1BQ"
                     ]
                 ]
-                
+
         StoriesTitleH2 ->
             CopyText "\u{2728}"
 

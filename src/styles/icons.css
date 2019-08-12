@@ -26,63 +26,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-involved:before {
-  content: "\e906";
-}
-.icon-exit-door:before {
-  content: "\e900";
-}
-.icon-family-large:before {
-  content: "\e901";
-}
 .icon-pound:before {
-  content: "\e902";
-}
-.icon-police-hat-large:before {
-  content: "\e903";
-}
-.icon-leaving-large:before {
-  content: "\e904";
-}
-.icon-pound-note-large:before {
-  content: "\e905";
-}
-.icon-user:before {
-  content: "\f007";
+  content: '\e900';
 }
 .icon-book:before {
-  content: "\f02d";
+  content: '\e901';
 }
-.icon-pencil:before {
-  content: "\f040";
+.icon-note:before {
+  content: '\e902';
 }
-.icon-check-square-o:before {
-  content: "\f046";
+.icon-car:before {
+  content: '\e903';
 }
-.icon-info-circle:before {
-  content: "\f05a";
+.icon-coffee:before {
+  content: '\e904';
 }
-.icon-arrow-left:before {
-  content: "\f060";
+.icon-email:before {
+  content: '\e905';
 }
-.icon-arrow-right:before {
-  content: "\f061";
+.icon-house:before {
+  content: '\e906';
+}
+.icon-info:before {
+  content: '\e907';
+}
+.icon-people:before {
+  content: '\e908';
 }
 .icon-phone:before {
-  content: "\f095";
+  content: '\e909';
 }
-.icon-group:before {
-  content: "\f0c0";
+.icon-question:before {
+  content: '\f128';
 }
-.icon-users:before {
-  content: "\f0c0";
-}
-.icon-envelope:before {
-  content: "\f0e0";
-}
-.icon-gbp:before {
-  content: "\f154";
-}
-.icon-question-circle-o:before {
-  content: "\f29c";
+.icon-arrow-right:before {
+  content: '\f061';
 }
