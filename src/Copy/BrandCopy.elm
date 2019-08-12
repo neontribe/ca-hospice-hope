@@ -257,104 +257,141 @@ brandCopy key =
             CopyText "\u{2728}"
 
         InfoTitleH2 ->
-            CopyText "\u{2728}"
+            CopyText "Bite-size information"
 
         InfoLikeMoreInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "I'd like some more information"
 
         InfoLikeOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "I'd like some other information"
 
         InfoOtherInfoLink ->
-            CopyText "\u{2728}"
+            CopyText "Other bite-size information to help you"
 
         InfoNotFoundName ->
-            CopyText "\u{2728}"
+            CopyText "Not found"
 
         InfoNotFoundSlug ->
-            CopyText "\u{2728}"
+            CopyText "not-found"
 
         InfoNotFoundIcon ->
             CopyText "\u{2728}"
 
-        InfoNotFoundP1 ->
-            CopyText "\u{2728}"
-
-        InfoNotFoundP2 ->
-            CopyText "\u{2728}"
+        InfoNotFoundContent ->
+            CopySection
+                [ CopyText "We can't find a page with that title, sorry."
+                , CopyText "Please use the 'Other bite-size information to help you' page to see if we have the topic you are looking for."
+                ]
 
         InfoOneName ->
-            CopyText "\u{2728}"
+            CopyText "Who comes to our sessions?"
 
         InfoOneSlug ->
-            CopyText "\u{2728}"
+            CopyText "who-comes"
 
         InfoOneIcon ->
             CopyText "\u{2728}"
 
-        InfoOneP1 ->
-            CopyText "\u{2728}"
+        InfoOneContent ->
+            CopySection
+                [ CopyText "The people who come to us all have illnesses that are seriously affecting their lives and are unlikely to get better."
+                , CopyText "Each week we help people continue to enjoy life through conversation and activities. Some sessions are for both those people and their carers, others are a chance for carers to take a break whilst we provide support."
+                , CopyText "If you live in North-West Leicestershire and have an illness like parkinson's, chronic fatigue or cancer and you think we could help you get the most out of life contact us."
+            ]
 
         InfoTwoName ->
-            CopyText "\u{2728}"
+            CopyText "What is Hope House?"
 
         InfoTwoSlug ->
-            CopyText "\u{2728}"
+            CopyText "hope-house"
 
         InfoTwoIcon ->
             CopyText "\u{2728}"
 
-        InfoTwoP1 ->
-            CopyText "\u{2728}"
+        InfoTwoContent ->
+            CopySection
+                [ CopyText "Hope House is a day therapy service that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
+                , CopyList 
+                    [CopyText "Talk to our trained staff and volunteers about your worries"
+                    , CopyText "Take part in one of the planned activities like relaxation, exercise, gardening or arts and crafts"
+                    , CopyText "Have a relaxing massage"
+                    , CopyText "Chat with other people going through similar experiences to you"
+                    ]
+                , CopyText "Talk to a team member to find out if day therapy sessions are the right fit for you."
+                ]
 
         InfoThreeName ->
-            CopyText "\u{2728}"
+            CopyText "What are our Support Cafes?"
 
         InfoThreeSlug ->
-            CopyText "\u{2728}"
+            CopyText "support-cafes"
 
         InfoThreeIcon ->
             CopyText "\u{2728}"
 
-        InfoThreeP1 ->
-            CopyText "\u{2728}"
+        InfoThreeContent ->
+            CopySection
+                [CopyText "If you or your friends and family are feeling overwhelmed in the face of your illness, our cafes can help."
+                , CopyList
+                    [CopyText "These are drop in sessions where you can spend a couple of hours chatting to our trained staff and volunteers about local support or your worries;"
+                    , CopyText "taking part in a planned activities like relaxation, exercise, gardening or arts and crafts;"
+                    , CopyText "or simply relaxing in a different place and enjoying a cuppa and a chat."
+                    ]
+                ]
 
         InfoFourName ->
-            CopyText "\u{2728}"
+            CopyText "Worried it’s not for you?"
 
         InfoFourSlug ->
-            CopyText "\u{2728}"
+            CopyText "worried-not-for-you"
 
         InfoFourIcon ->
             CopyText "\u{2728}"
 
-        InfoFourP1 ->
-            CopyText "\u{2728}"
+        InfoFourContent ->
+            CopySection
+                [ CopyText "Lots of people tell us they’re worried that everyone here will be older than me. But people of all ages find themselves dealing with an unexpected illness. People here will probably be more like you than you think."
+                , CopyText "Many people hate the idea of being forced into group activity. We promise that won’t happen. You choose when to take part, and when to take time on your own or just to chat. You can spend the whole time simply relaxing if you like."
+                ]
 
         InfoFiveName ->
-            CopyText "\u{2728}"
+            CopyText "Cost and other practicalities?"
 
         InfoFiveSlug ->
-            CopyText "\u{2728}"
+            CopyText "cost-and-practicalities"
 
         InfoFiveIcon ->
             CopyText "\u{2728}"
 
-        InfoFiveP1 ->
-            CopyText "\u{2728}"
+        InfoFiveContent ->
+            CopySection
+                [ CopyText "Hospice Hope’s services do not cost anything, even lunches and refreshments are free. If you can afford to make a donation you may, but it is not expected."
+                , CopyText "Free transport is provided. Even if you can still use your own car, you may prefer to have a volunteer driver pick you up as there is no parking at Hope House and limited parking at the Support Cafes. "
+                ]
 
         InfoSixName ->
-            CopyText "\u{2728}"
+            CopyText "When do sessions take place?"
 
         InfoSixSlug ->
-            CopyText "\u{2728}"
+            CopyText "when-sessions-take-place"
 
         InfoSixIcon ->
             CopyText "\u{2728}"
 
-        InfoSixP1 ->
-            CopyText "\u{2728}"
-
+        InfoSixContent ->
+            CopySection
+                [ CopyText "Hope House"
+                , CopyText "Sessions are on Mondays and Thursdays between 10.30am and 3.30pm. Some people come regularly and others less often. Please contact us to work out whether these sessions are the right fit for you."
+                , CopyText "Support Cafes"
+                , CopyText "There’s no need to book, just drop in!"
+                , CopyList
+                    [ CopyText "Monday from 1.30pm to 4pm at the Hub, Bondgate, Castle Donington, DE74 2NR"
+                    , CopyText "Tuesday from 1.30pm to 4pm at the Methodist Church, Melbourne Road, Ibstock, LE67 6JS"
+                    , CopyText "Wednesday from 1.30pm to 4pm at the Methodist Church, Hall Lane, Whitwick, LE67 5PF"
+                    , CopyText "Friday from 1.30pm to 4pm at the Legion House, South Street, Ashby de la Zouch, LE65 1BQ"
+                    ]
+                ]
+                
         StoriesTitleH2 ->
             CopyText "\u{2728}"
 
