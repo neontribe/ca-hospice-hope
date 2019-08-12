@@ -2,18 +2,18 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  src: url('./fonts/Lato-Regular.ttf') format('truetype'),
-    url('./fonts/Lato-Regular.woff') format('woff'),
-    url('./fonts/Lato-Regular.woff2') format('woff2');
+  src: url('./fonts/lato-regular.eot'); /* IE9 */
+  src: url('./fonts/lato-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/lato-regular.ttf') format('truetype'); /* Mobile */
 }
 
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
-  src: url('./fonts/Lato-Bold.ttf') format('truetype'),
-    url('./fonts/Lato-Bold.woff') format('woff'),
-    url('./fonts/Lato-Bold.woff2') format('woff2');
+  src: url('./fonts/lato-bold.eot'); /* IE9 */
+  src: url('./fonts/lato-bold.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/lato-bold.ttf') format('truetype'); /* Mobile */
 }
 
 
