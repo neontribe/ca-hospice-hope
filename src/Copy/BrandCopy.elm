@@ -464,7 +464,7 @@ brandCopy key =
             CopyText "After Hazel’s husband Colin was diagnosed with Progressive Supranuclear Palsy they both struggled to adjust and needed a little extra support."
 
         StoryTwoTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
 
         StoryTwo1Quote ->
             CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks. "
