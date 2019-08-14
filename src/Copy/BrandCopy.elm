@@ -425,7 +425,7 @@ brandCopy key =
             CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day therapy at Hope House. "
 
         StoryOneTeaserImageAlt ->
-            CopyText "✨"
+            CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
 
         StoryOne1Quote ->
             CopyText "I have Wolfram syndrome, a rare genetic disorder, and can go through phases of feeling a little bit down or where life seems a bit too much, even with the support of Toby my service dog."
