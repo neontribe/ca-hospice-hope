@@ -12,6 +12,10 @@ src/Copy/*
 !src/styles
 src/styles/*
 !src/styles/fonts
+!src/assets
+src/assets/*
+!src/assets/banner.png
+!src/assets/story_images
 
 # Edit these only
 !src/Copy/BrandCopy.elm
