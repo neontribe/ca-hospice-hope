@@ -19,6 +19,7 @@ rm -rf contemplating-action/src/styles/fonts
 cp src/styles/fonts contemplating-action/src/styles/
 rm -rf contemplating-action/src/assets/story_images
 cp src/assets/story_images contemplating-action/src/assets/
+cp src/assets/banner.png contemplating-action/src/assets
 
 #Sync the files across - ignoring hidden files (like .travis.yml, .git dir etc)
 rsync -av --exclude=".*" contemplating-action/* .
