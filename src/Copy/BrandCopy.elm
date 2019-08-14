@@ -189,9 +189,17 @@ brandCopy key =
             CopyText "How secure is your data?"
 
         PrivacySectionSevenP ->
-            CopyText "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
+            CopySection
+                CopyText
+                "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
 
         PrivacySectionSevenList ->
+            CopyText ""
+
+        PrivacySectionEightH3 ->
+            CopyText "Your rights"
+
+        PrivacySectionEightP ->
             CopySection
                 [ CopyText "You have a number of rights. If you wish to exercise any of these rights, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
                 , CopyText "1. Right to be informed – you have the right to know why we are collecting personal data and  what we are doing with it. This notice gives details of how and when we collect data. The data is collected only if we need it to inform you of activities, events or visits that you have requested at some point. E.g. members may pay their annual subscription by direct debit or standing order and have given us personal details."
@@ -200,6 +208,9 @@ brandCopy key =
                 , CopyText "4. You have the right to be “forgotten” by us – there are cases when you can ask us to erase all of the information that we hold about you. If you make this request, we will erase your data within one month of the request being made. There are certain situations when this right does not apply, in which case, we would let you know."
                 , CopyText "5. Right of restriction of processing – you can ask us to use your data only in certain ways – this could be because you have notified us that information we hold is inaccurate and we are investigating this concern. It could be that we are dealing with a query that you have on the information. We will act upon your request within one month. If this right does not apply to you for any reason, we will notify you."
                 ]
+
+        PrivacySectionEightList ->
+            CopyText ""
 
         -- Supporters Page
         SupportersTitleH2 ->
