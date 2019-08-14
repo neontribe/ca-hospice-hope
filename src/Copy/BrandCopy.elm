@@ -13,10 +13,10 @@ brandCopy key =
             CopyText "Hospice Hope Stories"
 
         CallToActionDestination ->
-            CopyText "✨"
+            CopyText "01530222079"
 
         CallToActionDestinationDisplay ->
-            CopyText "✨"
+            CopyText ("01530" ++ "\u{00A0}" ++ "222079")
 
         CallToActionLong ->
             CopyText "Call us"
@@ -40,10 +40,11 @@ brandCopy key =
             CopyText "Contact"
 
         ContactLinkDestination ->
-            CopyText "✨"
+            -- Temporary - will be embeded but better than a dead link for now.
+            CopyText "https://hospicehope.typeform.com/to/rGEewl"
 
         IconCallToAction ->
-            CopyText "✨"
+            CopyText "phone"
 
         IconStories ->
             CopyText "book"
@@ -55,7 +56,7 @@ brandCopy key =
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
         HomeBannerImageAlt ->
-            CopyText "✨"
+            CopyText "A worried man and woman embracing. A happy man and woman chatting on a sofa."
 
         HomeTalkToSomeoneH2 ->
             CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
@@ -64,10 +65,10 @@ brandCopy key =
             CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeLinkDisplay ->
-            CopyText "✨"
+            CopyText ""
 
         HomeLinkDestination ->
-            CopyText "✨"
+            CopyText ""
 
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
@@ -395,28 +396,28 @@ brandCopy key =
             CopyText "Stories"
 
         StoriesTeaserMoreLink title ->
-            CopyText "✨"
+            CopyText ("Read " ++ title ++ "'s Story")
 
         StoryCardH3 cardId ->
-            CopyText "✨"
+            CopyText ("Part " ++ String.fromInt cardId ++ " of 4")
 
         StoryCardStartJourneyPrompt ->
             CopyText "Everyone's story is different, but you will find someone who can support you. Start your journey now."
 
         StoryNotFoundTitle ->
-            CopyText "✨"
+            CopyText "We can't find that story"
 
         StoryNotFoundTeaser ->
-            CopyText "✨"
+            CopyText "Sorry"
 
         StoryNotFoundQuote ->
-            CopyText "✨"
+            CopyText "We might add more."
 
         StoryNotFoundImageAlt ->
-            CopyText "✨"
+            CopyText "Placeholder for not found content"
 
         StoryNotFoundMessage ->
-            CopyText "✨"
+            CopyText "Check back soon."
 
         StoryOneTitle ->
             CopyText "Shane's Story"
