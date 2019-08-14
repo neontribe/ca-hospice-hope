@@ -189,8 +189,7 @@ brandCopy key =
             CopyText "How secure is your data?"
 
         PrivacySectionSevenP ->
-            CopySection
-                CopyText
+            CopyText
                 "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
 
         PrivacySectionSevenList ->
