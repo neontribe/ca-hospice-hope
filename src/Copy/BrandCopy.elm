@@ -13,10 +13,10 @@ brandCopy key =
             CopyText "Hospice Hope Stories"
 
         CallToActionDestination ->
-            CopyText "\u{2728}"
+            CopyText "01530222079"
 
         CallToActionDestinationDisplay ->
-            CopyText "\u{2728}"
+            CopyText ("01530" ++ "\u{00A0}" ++ "222079")
 
         CallToActionLong ->
             CopyText "Call us"
@@ -40,10 +40,11 @@ brandCopy key =
             CopyText "Contact"
 
         ContactLinkDestination ->
-            CopyText "\u{2728}"
+            -- Temporary - will be embeded but better than a dead link for now.
+            CopyText "https://hospicehope.typeform.com/to/rGEewl"
 
         IconCallToAction ->
-            CopyText "\u{2728}"
+            CopyText "phone"
 
         IconStories ->
             CopyText "book"
@@ -55,7 +56,7 @@ brandCopy key =
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
         HomeBannerImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "A worried man and woman embracing. A happy man and woman chatting on a sofa."
 
         HomeTalkToSomeoneH2 ->
             CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
@@ -64,10 +65,10 @@ brandCopy key =
             CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeLinkDisplay ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         HomeLinkDestination ->
-            CopyText "\u{2728}"
+            CopyText ""
 
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
@@ -188,9 +189,16 @@ brandCopy key =
             CopyText "How secure is your data?"
 
         PrivacySectionSevenP ->
-            CopyText "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
+            CopyText
+                "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
 
         PrivacySectionSevenList ->
+            CopyText ""
+
+        PrivacySectionEightH3 ->
+            CopyText "Your rights"
+
+        PrivacySectionEightP ->
             CopySection
                 [ CopyText "You have a number of rights. If you wish to exercise any of these rights, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
                 , CopyText "1. Right to be informed – you have the right to know why we are collecting personal data and  what we are doing with it. This notice gives details of how and when we collect data. The data is collected only if we need it to inform you of activities, events or visits that you have requested at some point. E.g. members may pay their annual subscription by direct debit or standing order and have given us personal details."
@@ -199,6 +207,9 @@ brandCopy key =
                 , CopyText "4. You have the right to be “forgotten” by us – there are cases when you can ask us to erase all of the information that we hold about you. If you make this request, we will erase your data within one month of the request being made. There are certain situations when this right does not apply, in which case, we would let you know."
                 , CopyText "5. Right of restriction of processing – you can ask us to use your data only in certain ways – this could be because you have notified us that information we hold is inaccurate and we are investigating this concern. It could be that we are dealing with a query that you have on the information. We will act upon your request within one month. If this right does not apply to you for any reason, we will notify you."
                 ]
+
+        PrivacySectionEightList ->
+            CopyText ""
 
         -- Supporters Page
         SupportersTitleH2 ->
@@ -395,28 +406,28 @@ brandCopy key =
             CopyText "Stories"
 
         StoriesTeaserMoreLink title ->
-            CopyText "\u{2728}"
+            CopyText ("Read " ++ title ++ "'s Story")
 
         StoryCardH3 cardId ->
-            CopyText "\u{2728}"
+            CopyText ("Part " ++ String.fromInt cardId ++ " of 4")
 
         StoryCardStartJourneyPrompt ->
             CopyText "Everyone's story is different, but you will find someone who can support you. Start your journey now."
 
         StoryNotFoundTitle ->
-            CopyText "\u{2728}"
+            CopyText "We can't find that story"
 
         StoryNotFoundTeaser ->
-            CopyText "\u{2728}"
+            CopyText "Sorry"
 
         StoryNotFoundQuote ->
-            CopyText "\u{2728}"
+            CopyText "We might add more."
 
         StoryNotFoundImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "Placeholder for not found content"
 
         StoryNotFoundMessage ->
-            CopyText "\u{2728}"
+            CopyText "Check back soon."
 
         StoryOneTitle ->
             CopyText "Shane's Story"
@@ -425,7 +436,7 @@ brandCopy key =
             CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day therapy at Hope House. "
 
         StoryOneTeaserImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
 
         StoryOne1Quote ->
             CopyText "I have Wolfram syndrome, a rare genetic disorder, and can go through phases of feeling a little bit down or where life seems a bit too much, even with the support of Toby my service dog."
@@ -464,7 +475,7 @@ brandCopy key =
             CopyText "After Hazel’s husband Colin was diagnosed with Progressive Supranuclear Palsy they both struggled to adjust and needed a little extra support."
 
         StoryTwoTeaserImageAlt ->
-            CopyText "\u{2728}"
+            CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
 
         StoryTwo1Quote ->
             CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks. "
@@ -492,3 +503,39 @@ brandCopy key =
 
         StoryTwo4ImageAlt ->
             CopyText "A woman enters the support cafe waving at other people attending."
+
+        StoryThreeTitle ->
+            CopyText "Gary's Story"
+
+        StoryThreeTeaser ->
+            CopyText "Gary struggled to find support after his 3 heart attacks and didn’t think anyone would understand how he was feeling."
+
+        StoryThreeTeaserImageAlt ->
+            CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
+
+        StoryThree1Quote ->
+            CopyText "I had had three heart attacks and was diagnosed with heart failure in my 50s. Me and my wife, Cheryl, didn’t know what support was out there. We asked a heart nurse if we could get any support and she didn’t know of anything."
+
+        StoryThree1ImageAlt ->
+            CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
+
+        StoryThree2Quote ->
+            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Cafe for a while, and then my wife felt it might be good for us both if I attend the day therapy service at Hope House."
+
+        StoryThree2ImageAlt ->
+            CopyText "Illustration of a leaflet for Hope House the Support Cafe"
+
+        StoryThree2Message ->
+            CopyText ""
+
+        StoryThree3Quote ->
+            CopyText "Before I went I was worried about what went on, as I had no idea on what to expect. I was worried because it was new and unknown."
+
+        StoryThree3ImageAlt ->
+            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks. "
+
+        StoryThree4Quote ->
+            CopyText "On attending I found people in similar situations to me, who knew what I was talking about and knew how I was feeling.  It’s really improved the social side of my life, and I enjoy being with other people."
+
+        StoryThree4ImageAlt ->
+            CopyText "Illustration of a man looking relaxed and happy in a garden. He is in deep conversation with a woman who is smiling."
