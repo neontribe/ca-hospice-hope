@@ -5,8 +5,13 @@
 !LICENSE
 !README.md
 
+
+
 !src
 src/*
+!src/apple-icon*
+!src/android-icon*
+!src/favicon*
 !src/Copy
 src/Copy/*
 !src/styles
