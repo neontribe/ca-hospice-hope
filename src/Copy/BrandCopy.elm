@@ -1,6 +1,6 @@
 module Copy.BrandCopy exposing (brandCopy)
 
-import Copy.Keys exposing (Copy(..), Key(..))
+import Copy.Keys exposing (CallToActionType(..), Copy(..), Key(..))
 
 
 brandCopy : Key -> Copy
@@ -12,17 +12,27 @@ brandCopy key =
         AppTitle ->
             CopyText "Hospice Hope Stories"
 
-        CallToActionDestination ->
-            CopyText "01530222079"
+        CallToActionOne ->
+            CallToAction
+                { action = Phone
+                , category = "phone"
+                , icon = "phone"
+                , href = "tel:01530222079"
+                , displayHref = "01530" ++ "\u{00A0}" ++ "222079"
+                , promptLong = "Call us"
+                , promptShort = "Call"
+                }
 
-        CallToActionDestinationDisplay ->
-            CopyText ("01530" ++ "\u{00A0}" ++ "222079")
-
-        CallToActionLong ->
-            CopyText "Call us"
-
-        CallToActionShort ->
-            CopyText "Call"
+        CallToActionTwo ->
+            CallToAction
+                { action = Link
+                , category = "contact"
+                , icon = "note"
+                , href = "https://hospicehope.typeform.com/to/rGEewl"
+                , displayHref = ""
+                , promptLong = "Contact us"
+                , promptShort = "Contact"
+                }
 
         ContentLinkLong ->
             CopyText "Show me the stories"
@@ -33,24 +43,8 @@ brandCopy key =
         ContentLinkShort ->
             CopyText "Stories"
 
-        ContactLinkLong ->
-            CopyText "Contact us"
-
-        ContactLinkShort ->
-            CopyText "Contact"
-
-        ContactLinkDestination ->
-            -- Temporary - will be embeded but better than a dead link for now.
-            CopyText "https://hospicehope.typeform.com/to/rGEewl"
-
-        IconCallToAction ->
-            CopyText "phone"
-
         IconStories ->
             CopyText "book"
-
-        IconContact ->
-            CopyText "note"
 
         HomeReadAboutH2 ->
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
