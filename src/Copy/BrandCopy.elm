@@ -46,6 +46,15 @@ brandCopy key =
         IconStories ->
             CopyText "book"
 
+        CookieDescription ->
+            CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
+
+        CookieAccept ->
+            CopyText "Accept"
+
+        CookieDecline ->
+            CopyText "Decline"
+
         HomeReadAboutH2 ->
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
