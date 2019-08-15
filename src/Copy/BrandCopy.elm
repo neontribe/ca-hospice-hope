@@ -1,6 +1,6 @@
 module Copy.BrandCopy exposing (brandCopy, relatedInfo)
 
-import Copy.Keys exposing (CallToActionType(..), Copy(..), Key(..))
+import Copy.Keys exposing (Copy(..), Key(..))
 
 
 brandCopy : Key -> Copy
@@ -12,28 +12,6 @@ brandCopy key =
         AppTitle ->
             CopyText "Hospice Hope Stories"
 
-        CallToActionOne ->
-            CallToAction
-                { action = Phone
-                , category = "phone"
-                , icon = "phone"
-                , href = "tel:01530222079"
-                , displayHref = "01530" ++ "\u{00A0}" ++ "222079"
-                , promptLong = "Call us"
-                , promptShort = "Call"
-                }
-
-        CallToActionTwo ->
-            CallToAction
-                { action = Link
-                , category = "contact"
-                , icon = "note"
-                , href = "https://hospicehope.typeform.com/to/rGEewl"
-                , displayHref = ""
-                , promptLong = "Contact us"
-                , promptShort = "Contact"
-                }
-
         ContentLinkLong ->
             CopyText "Show me the stories"
 
@@ -42,15 +20,6 @@ brandCopy key =
 
         ContentLinkShort ->
             CopyText "Stories"
-
-        CookieDescription ->
-            CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
-
-        CookieAccept ->
-            CopyText "Accept"
-
-        CookieDecline ->
-            CopyText "Decline"
 
         IconStories ->
             CopyText "book"
