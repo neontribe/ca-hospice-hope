@@ -1,4 +1,4 @@
-module Copy.BrandCopy exposing (brandCopy)
+module Copy.BrandCopy exposing (brandCopy, relatedInfo)
 
 import Copy.Keys exposing (Copy(..), Key(..))
 
@@ -42,10 +42,18 @@ brandCopy key =
         ContactLinkDestination ->
             -- Temporary - will be embeded but better than a dead link for now.
             CopyText "https://hospicehope.typeform.com/to/rGEewl"
+            
+        CookieDescription ->
+            CopyText "Can we use cookies to help improve this site? We'd like to use Google Analytics cookies to collect and report information on how people use the site. Allowing us to use cookies does not allow us to identify you. For more information please see our 'Privacy Policy' page."
+
+        CookieAccept ->
+            CopyText "Accept"
+
+        CookieDecline ->
+            CopyText "Decline"
 
         IconCallToAction ->
             CopyText "phone"
-
         IconStories ->
             CopyText "book"
 
@@ -539,3 +547,19 @@ brandCopy key =
 
         StoryThree4ImageAlt ->
             CopyText "Illustration of a man looking relaxed and happy in a garden. He is in deep conversation with a woman who is smiling."
+
+
+relatedInfo : Int -> List Int
+relatedInfo storyId =
+    case storyId of
+        1 ->
+            [ 1, 2 ]
+
+        2 ->
+            [ 2, 3 ]
+
+        3 ->
+            [ 3, 4 ]
+
+        _ ->
+            [ 1 ]
