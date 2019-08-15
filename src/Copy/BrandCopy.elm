@@ -13,10 +13,10 @@ brandCopy key =
             CopyText "Hospice Hope Stories"
 
         CallToActionDestination ->
-            CopyText "✨"
+            CopyText "01530222079"
 
         CallToActionDestinationDisplay ->
-            CopyText "✨"
+            CopyText ("01530" ++ "\u{00A0}" ++ "222079")
 
         CallToActionLong ->
             CopyText "Call us"
@@ -40,10 +40,11 @@ brandCopy key =
             CopyText "Contact"
 
         ContactLinkDestination ->
-            CopyText "✨"
+            -- Temporary - will be embeded but better than a dead link for now.
+            CopyText "https://hospicehope.typeform.com/to/rGEewl"
 
         IconCallToAction ->
-            CopyText "✨"
+            CopyText "phone"
 
         IconStories ->
             CopyText "book"
@@ -55,7 +56,7 @@ brandCopy key =
             CopyText "People who come to us have illnesses that are seriously affecting their lives. Read about how visiting us helped them.  Could we help you too?"
 
         HomeBannerImageAlt ->
-            CopyText "✨"
+            CopyText "A worried man and woman embracing. A happy man and woman chatting on a sofa."
 
         HomeTalkToSomeoneH2 ->
             CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
@@ -64,10 +65,10 @@ brandCopy key =
             CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeLinkDisplay ->
-            CopyText "✨"
+            CopyText ""
 
         HomeLinkDestination ->
-            CopyText "✨"
+            CopyText ""
 
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
@@ -188,9 +189,16 @@ brandCopy key =
             CopyText "How secure is your data?"
 
         PrivacySectionSevenP ->
-            CopyText "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
+            CopyText
+                "We have procedures in place to protect your data. These include password protection on all Hospice Hope computers and devices; password protected telephones for Hospice Hope, locked, secure cabinets for all paper documents with limited keyholders. Trustees, staff and key volunteers are all informed of their responsibility relating to data security and all staff, trustees and volunteers sign a confidentiality statement before they begin to work or volunteer for Hospice Hope. Hospice Hope only shares data with approved agencies e.g. HMRC re Gift Aid or Social Services in case of any safeguarding incident. However, if you think your data has been given to another organisation without authorisation, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
 
         PrivacySectionSevenList ->
+            CopyText ""
+
+        PrivacySectionEightH3 ->
+            CopyText "Your rights"
+
+        PrivacySectionEightP ->
             CopySection
                 [ CopyText "You have a number of rights. If you wish to exercise any of these rights, please contact our Administrator on 07935 800 658 or email on administrator@hospicehope.org.uk."
                 , CopyText "1. Right to be informed – you have the right to know why we are collecting personal data and  what we are doing with it. This notice gives details of how and when we collect data. The data is collected only if we need it to inform you of activities, events or visits that you have requested at some point. E.g. members may pay their annual subscription by direct debit or standing order and have given us personal details."
@@ -199,6 +207,9 @@ brandCopy key =
                 , CopyText "4. You have the right to be “forgotten” by us – there are cases when you can ask us to erase all of the information that we hold about you. If you make this request, we will erase your data within one month of the request being made. There are certain situations when this right does not apply, in which case, we would let you know."
                 , CopyText "5. Right of restriction of processing – you can ask us to use your data only in certain ways – this could be because you have notified us that information we hold is inaccurate and we are investigating this concern. It could be that we are dealing with a query that you have on the information. We will act upon your request within one month. If this right does not apply to you for any reason, we will notify you."
                 ]
+
+        PrivacySectionEightList ->
+            CopyText ""
 
         -- Supporters Page
         SupportersTitleH2 ->
@@ -395,28 +406,28 @@ brandCopy key =
             CopyText "Stories"
 
         StoriesTeaserMoreLink title ->
-            CopyText "✨"
+            CopyText ("Read " ++ title ++ "'s Story")
 
         StoryCardH3 cardId ->
-            CopyText "✨"
+            CopyText ("Part " ++ String.fromInt cardId ++ " of 4")
 
         StoryCardStartJourneyPrompt ->
             CopyText "Everyone's story is different, but you will find someone who can support you. Start your journey now."
 
         StoryNotFoundTitle ->
-            CopyText "✨"
+            CopyText "We can't find that story"
 
         StoryNotFoundTeaser ->
-            CopyText "✨"
+            CopyText "Sorry"
 
         StoryNotFoundQuote ->
-            CopyText "✨"
+            CopyText "We might add more."
 
         StoryNotFoundImageAlt ->
-            CopyText "✨"
+            CopyText "Placeholder for not found content"
 
         StoryNotFoundMessage ->
-            CopyText "✨"
+            CopyText "Check back soon."
 
         StoryOneTitle ->
             CopyText "Shane's Story"
