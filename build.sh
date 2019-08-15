@@ -12,9 +12,9 @@ git clone https://$GIT_USER:$GIT_PASS@github.com/neontribe/contemplating-action.
 #Copy the ones we want to retain from this repo
 cp LICENSE contemplating-action/LICENSE
 cp README.md contemplating-action/README.md
-cp favicon* contemplating-action/src
-cp android-icon* contemplating-action/src
-cp apple-icon* contemplating-action/src
+cp src/favicon* contemplating-action/src
+cp src/android-icon* contemplating-action/src
+cp src/apple-icon* contemplating-action/src
 cp src/Copy/BrandCopy.elm contemplating-action/src/Copy/BrandCopy.elm
 cp src/styles/icons.css contemplating-action/src/styles/icons.css
 cp src/styles/theme.scss contemplating-action/src/styles/theme.scss
