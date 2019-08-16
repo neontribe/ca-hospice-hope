@@ -267,7 +267,12 @@ brandCopy key =
             CopyText ""
 
         FooterCopyrightLink ->
-            CopyText "www.hospicehope.org.uk"
+            CopyWithLink
+                { textBefore = ""
+                , linkText = "www.hospicehope.org.uk"
+                , destination = "https://www.hospicehope.org.uk/"
+                , textAfter = ""
+                }
 
         InfoTitleH2 ->
             CopyText "Bite-size information"
