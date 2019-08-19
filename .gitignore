@@ -11,6 +11,7 @@ src/*
 !src/android-icon*
 !src/favicon*
 !src/index.html
+!src/index.js
 !src/Copy
 src/Copy/*
 !src/styles
