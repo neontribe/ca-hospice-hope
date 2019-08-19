@@ -15,7 +15,7 @@ cp README.md contemplating-action/README.md
 cp src/favicon* contemplating-action/src
 cp src/android-icon* contemplating-action/src
 cp src/apple-icon* contemplating-action/src
-cp src/index.html contemplating-action/src
+cp src/index* contemplating-action/src
 cp src/Copy/BrandCopy.elm contemplating-action/src/Copy/BrandCopy.elm
 cp src/styles/icons.css contemplating-action/src/styles/icons.css
 cp src/styles/theme.scss contemplating-action/src/styles/theme.scss
