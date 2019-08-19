@@ -314,7 +314,7 @@ brandCopy key =
             CopySection
                 [ CopyText "The people who come to us all have illnesses that are seriously affecting their lives and are unlikely to get better."
                 , CopyText "Each week we help people continue to enjoy life through conversation and activities. Some sessions are for both those people and their carers, others are a chance for carers to take a break whilst we provide support."
-                , CopyText "If you live in North-West Leicestershire and have an illness like parkinson's, chronic fatigue or cancer and you think we could help you get the most out of life contact us."
+                , CopyText "If you live in North-West Leicestershire and have an illness like Parkinson's, heart failure or cancer and you think we could help you get the most out of life contact us."
                 ]
 
         InfoTwoName ->
@@ -328,14 +328,14 @@ brandCopy key =
 
         InfoTwoContent ->
             CopySection
-                [ CopyText "Hope House is a day therapy service that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
+                [ CopyText "Hope House is a day respite service that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
                 , CopyList
                     [ CopyText "Talk to our trained staff and volunteers about your worries"
                     , CopyText "Take part in one of the planned activities like relaxation, exercise, gardening or arts and crafts"
                     , CopyText "Have a relaxing massage"
                     , CopyText "Chat with other people going through similar experiences to you"
                     ]
-                , CopyText "Talk to a team member to find out if day therapy sessions are the right fit for you."
+                , CopyText "Talk to a team member to find out if day respite sessions are the right fit for you."
                 ]
 
         InfoThreeName ->
@@ -368,7 +368,7 @@ brandCopy key =
 
         InfoFourContent ->
             CopySection
-                [ CopyText "Lots of people tell us they’re worried that everyone here will be older than me. But people of all ages find themselves dealing with an unexpected illness. People here will probably be more like you than you think."
+                [ CopyText "Lots of people tell us they’re worried that everyone here will be older than them. But people of all ages find themselves dealing with an unexpected illness. People here will probably be more like you than you think."
                 , CopyText "Many people hate the idea of being forced into group activity. We promise that won’t happen. You choose when to take part, and when to take time on your own or just to chat. You can spend the whole time simply relaxing if you like."
                 ]
 
@@ -438,10 +438,10 @@ brandCopy key =
             CopyText "Check back soon."
 
         StoryOneTitle ->
-            CopyText "Shane's Story"
+            CopyText "Shane"
 
         StoryOneTeaser ->
-            CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day therapy at Hope House. "
+            CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day respite at Hope House. "
 
         StoryOneTeaserImageAlt ->
             CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
@@ -477,7 +477,7 @@ brandCopy key =
             CopyText ""
 
         StoryTwoTitle ->
-            CopyText "Hazel and Colin’s story"
+            CopyText "Hazel and Colin"
 
         StoryTwoTeaser ->
             CopyText "After Hazel’s husband Colin was diagnosed with Progressive Supranuclear Palsy they both struggled to adjust and needed a little extra support."
@@ -513,7 +513,7 @@ brandCopy key =
             CopyText "A woman enters the support cafe waving at other people attending."
 
         StoryThreeTitle ->
-            CopyText "Gary's Story"
+            CopyText "Gary"
 
         StoryThreeTeaser ->
             CopyText "Gary struggled to find support after his 3 heart attacks and didn’t think anyone would understand how he was feeling."
@@ -528,7 +528,7 @@ brandCopy key =
             CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
 
         StoryThree2Quote ->
-            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Cafe for a while, and then my wife felt it might be good for us both if I attend the day therapy service at Hope House."
+            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Cafe for a while, and then my wife felt it might be good for us both if I attend the day respite service at Hope House."
 
         StoryThree2ImageAlt ->
             CopyText "Illustration of a leaflet for Hope House the Support Cafe"
