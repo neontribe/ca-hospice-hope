@@ -452,6 +452,9 @@ brandCopy key =
         StoryOne1ImageAlt ->
             CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
 
+        StoryOne1Message ->
+            CopyText "I was feeling that way when I first heard about Hope House."
+
         StoryOne2Quote ->
             CopyText "I found out about Hope House through a friend that used to be my befriender – the person who matched us in her previous job had started working there! I googled it, read about it, and then got in contact."
 
@@ -466,6 +469,9 @@ brandCopy key =
 
         StoryOne3ImageAlt ->
             CopyText "Two illustrations side by side. One of a man looking worried and covering his ears. Another of a happy man eating a delicious roast dinner."
+
+        StoryOne3Message ->
+            CopyText "I was feeling that way when I first heard about Hope House."
 
         StoryOne4Quote ->
             CopyText "Coming to Hospice Hope has given me something really good and new to do, it's so nice here and I like the fresh air, food, volunteers/staff and all the laughs we have!  There’s hope here and I’ll continue to come."
@@ -491,6 +497,9 @@ brandCopy key =
         StoryTwo1ImageAlt ->
             CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
 
+        StoryTwo1Message ->
+            CopyText ""
+
         StoryTwo2Quote ->
             CopyText "Having driven past Hall Lane Methodist Church many times and seen the board advertising the Support Cafe, one day I stopped, and my husband and I ventured in, thinking it was somewhere to enjoy a cup of tea. We found a warm welcome and discovered a place Colin could come every Wednesday for tea, cake, company and support."
 
@@ -506,11 +515,17 @@ brandCopy key =
         StoryTwo3ImageAlt ->
             CopyText "A woman smiling whilst getting her hair cut."
 
+        StoryTwo3Message ->
+            CopyText ""
+
         StoryTwo4Quote ->
             CopyText "Support Cafes and Hope House were a lifeline for not only for Colin , but for me as well. Sadly Colin died earlier this year, but I still benefit and love attending Coalville and Whitwick Support Cafe every Wednesday."
 
         StoryTwo4ImageAlt ->
             CopyText "A woman enters the support cafe waving at other people attending."
+
+        StoryTwo4Message ->
+            CopyText ""
 
         StoryThreeTitle ->
             CopyText "Gary"
@@ -527,6 +542,9 @@ brandCopy key =
         StoryThree1ImageAlt ->
             CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
 
+        StoryThree1Message ->
+            CopyText "Since we asked, she said she would go away and look."
+
         StoryThree2Quote ->
             CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Cafe for a while, and then my wife felt it might be good for us both if I attend the day respite service at Hope House."
 
@@ -542,11 +560,17 @@ brandCopy key =
         StoryThree3ImageAlt ->
             CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks. "
 
+        StoryThree3Message ->
+            CopyText "I didn’t know if it was the right thing for me."
+
         StoryThree4Quote ->
             CopyText "On attending I found people in similar situations to me, who knew what I was talking about and knew how I was feeling.  It’s really improved the social side of my life, and I enjoy being with other people."
 
         StoryThree4ImageAlt ->
             CopyText "Illustration of a man looking relaxed and happy in a garden. He is in deep conversation with a woman who is smiling."
+
+        StoryThree4Message ->
+            CopyText ""
 
 
 relatedInfo : Int -> List Int
