@@ -558,7 +558,7 @@ brandCopy key =
             CopyText "Before I went I was worried about what went on, as I had no idea on what to expect. I was worried because it was new and unknown."
 
         StoryThree3ImageAlt ->
-            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks. "
+            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s mistaken ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks.  "
 
         StoryThree3Message ->
             CopyText "I didn’t know if it was the right thing for me."
