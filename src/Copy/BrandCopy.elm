@@ -14,7 +14,7 @@ brandCopy key =
 
         CallToActionOne ->
             CallToAction
-                { action = Phone
+                { action = DesktopInteractive
                 , category = "phone"
                 , icon = "phone"
                 , href = "tel:01530222079"
@@ -25,13 +25,24 @@ brandCopy key =
 
         CallToActionTwo ->
             CallToAction
-                { action = Link
+                { action = DesktopInteractive
                 , category = "contact"
                 , icon = "note"
                 , href = "https://hospicehope.typeform.com/to/rGEewl"
                 , displayHref = ""
                 , promptLong = "Contact us"
                 , promptShort = "Contact"
+                }
+
+        CallToActionThree ->
+            CallToAction
+                { action = DesktopInteractive
+                , category = "stories"
+                , icon = "book"
+                , href = "#/stories"
+                , displayHref = ""
+                , promptLong = "Hope Stories"
+                , promptShort = "Hope Stories"
                 }
 
         ContentLinkLong ->
