@@ -26,23 +26,23 @@ brandCopy key =
         CallToActionTwo ->
             CallToAction
                 { action = DesktopInteractive
-                , category = "contact"
-                , icon = "note"
-                , href = "https://hospicehope.typeform.com/to/rGEewl"
-                , displayHref = ""
-                , promptLong = "Contact us"
-                , promptShort = "Contact"
-                }
-
-        CallToActionThree ->
-            CallToAction
-                { action = DesktopInteractive
                 , category = "stories"
                 , icon = "book"
                 , href = "#/stories"
                 , displayHref = ""
                 , promptLong = "Hope Stories"
                 , promptShort = "Hope Stories"
+                }
+
+        CallToActionThree ->
+            CallToAction
+                { action = DesktopInteractive
+                , category = "contact"
+                , icon = "note"
+                , href = "https://hospicehope.typeform.com/to/rGEewl"
+                , displayHref = ""
+                , promptLong = "Contact us"
+                , promptShort = "Contact"
                 }
 
         ContentLinkLong ->
