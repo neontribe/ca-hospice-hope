@@ -14,7 +14,7 @@ brandCopy key =
 
         CallToActionOne ->
             CallToAction
-                { action = DesktopInteractive
+                { action = DesktopDisplayOnly
                 , category = "phone"
                 , icon = "phone"
                 , href = "tel:01530222079"
