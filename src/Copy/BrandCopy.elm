@@ -452,7 +452,7 @@ brandCopy key =
             CopyText "Shane"
 
         StoryOneTeaser ->
-            CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day respite at Hope House. "
+            CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day respite at Hope House."
 
         StoryOneTeaserImageAlt ->
             CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
@@ -503,7 +503,7 @@ brandCopy key =
             CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
 
         StoryTwo1Quote ->
-            CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks. "
+            CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks."
 
         StoryTwo1ImageAlt ->
             CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
@@ -569,7 +569,7 @@ brandCopy key =
             CopyText "Before I went I was worried about what went on, as I had no idea on what to expect. I was worried because it was new and unknown."
 
         StoryThree3ImageAlt ->
-            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s mistaken ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks.  "
+            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s mistaken ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks."
 
         StoryThree3Message ->
             CopyText "I didn’t know if it was the right thing for me."
