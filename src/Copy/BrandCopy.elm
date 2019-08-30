@@ -279,8 +279,8 @@ brandCopy key =
 
         FooterCopyrightLink ->
             CopyWithLink
-                { textBefore = ""
-                , linkText = "www.hospicehope.org.uk"
+                { textBefore = "© 2019 -"
+                , linkText = "Hospice Hope"
                 , destination = "https://www.hospicehope.org.uk/"
                 , textAfter = ""
                 }
