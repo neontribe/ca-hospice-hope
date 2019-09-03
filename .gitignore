@@ -4,6 +4,7 @@
 !build.sh
 !LICENSE
 !README.md
+!now.json
 
 !src
 src/*
