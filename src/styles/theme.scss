@@ -2,27 +2,27 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: normal;
-  src: url('./fonts/lato-regular.eot'); /* IE9 */
-  src: url('./fonts/lato-regular.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/lato-regular.ttf') format('truetype'); /* Mobile */
+  src: url("./fonts/lato-regular.eot"); /* IE9 */
+  src: url("./fonts/lato-regular.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/lato-regular.ttf") format("truetype"); /* Mobile */
 }
 
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
-  src: url('./fonts/lato-bold.eot'); /* IE9 */
-  src: url('./fonts/lato-bold.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/lato-bold.ttf') format('truetype'); /* Mobile */
+  src: url("./fonts/lato-bold.eot"); /* IE9 */
+  src: url("./fonts/lato-bold.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/lato-bold.ttf") format("truetype"); /* Mobile */
 }
 
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: black;
-  src: url('./fonts/nunito-black.eot'); /* IE9 */
-  src: url('./fonts/nunito-black.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/nunito-black.ttf') format('truetype'); /* Mobile */
+  src: url("./fonts/nunito-black.eot"); /* IE9 */
+  src: url("./fonts/nunito-black.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/nunito-black.ttf") format("truetype"); /* Mobile */
 }
 
 /* ------------------------------
@@ -46,17 +46,16 @@ $lime-green: #07c103;
 */
 
 // Generic Variables
-$yellow: #FEDD00;
-$yellow-lightest: #FFEF82;
-$blue: #00418F;
-$blue-lightest: #C8DDF6;
-$blue-light: #407EC9;
+$yellow: #fedd00;
+$yellow-lightest: #ffef82;
+$blue: #00418f;
+$blue-lightest: #c8ddf6;
+$blue-light: #407ec9;
 $blue-dark: #47195b;
-$black: #3C3C3B;
+$black: #3c3c3b;
 $white: #fbfbfb;
-$grey-light: #F9F9F9;
-$grey: #F5F5F5;
-
+$grey-light: #f9f9f9;
+$grey: #f5f5f5;
 
 // Utility variables
 $white-pure: #ffffff;
@@ -70,6 +69,7 @@ $text-colour: $black;
 $text-colour-alt: $grey;
 $interaction-colour: $yellow;
 $focus-colour: $blue-light;
+$link-hover-colour: $blue-dark;
 $hover-colour: $yellow-lightest;
 $background-highlight: $blue-lightest;
 
@@ -85,7 +85,7 @@ $background-highlight: $blue-lightest;
 
 :root {
   font-size: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.5;
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1,
@@ -105,7 +105,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .company-info {
@@ -115,7 +115,7 @@ h6 {
 
 h1 {
   font-size: 1.75em;
-  font-family: 'Nunito', 'Lato', sans-serif;
+  font-family: "Nunito", "Lato", sans-serif;
   font-weight: bold;
 }
 
@@ -176,14 +176,14 @@ h5 {
 ------------------------------ */
 
 .link {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: inherit;
   border-bottom: 2px solid currentColor;
   text-decoration: none;
 
   &:hover,
   &:active {
-    color: $interaction-colour;
+    color: $link-hover-colour;
   }
 }
 
@@ -336,7 +336,7 @@ h5 {
 }
 
 .section--header:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 1px;
