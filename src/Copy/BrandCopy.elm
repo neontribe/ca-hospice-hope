@@ -78,12 +78,6 @@ brandCopy key =
         HomeP1 ->
             CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
-        HomeLinkDisplay ->
-            CopyText ""
-
-        HomeLinkDestination ->
-            CopyText ""
-
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
 
