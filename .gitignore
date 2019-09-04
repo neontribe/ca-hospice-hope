@@ -5,6 +5,7 @@
 !LICENSE
 !README.md
 !now.json
+!now.redirect.json
 
 !src
 src/*
