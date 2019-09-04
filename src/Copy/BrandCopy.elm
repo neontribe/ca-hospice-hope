@@ -344,7 +344,7 @@ brandCopy key =
                 ]
 
         InfoThreeName ->
-            CopyText "What are our Support Cafes?"
+            CopyText "What are our Support Cafés?"
 
         InfoThreeSlug ->
             CopyText "support-cafes"
@@ -354,7 +354,7 @@ brandCopy key =
 
         InfoThreeContent ->
             CopySection
-                [ CopyText "If you or your friends and family are feeling overwhelmed in the face of your illness, our cafes can help."
+                [ CopyText "If you or your friends and family are feeling overwhelmed in the face of your illness, our cafés can help."
                 , CopyList
                     [ CopyText "These are drop in sessions where you can spend a couple of hours chatting to our trained staff and volunteers about local support or your worries;"
                     , CopyText "taking part in a planned activities like relaxation, exercise, gardening or arts and crafts;"
@@ -389,7 +389,7 @@ brandCopy key =
         InfoFiveContent ->
             CopySection
                 [ CopyText "Hospice Hope’s services do not cost anything, even lunches and refreshments are free. If you can afford to make a donation you may, but it is not expected."
-                , CopyText "Free transport is provided. Even if you can still use your own car, you may prefer to have a volunteer driver pick you up as there is no parking at Hope House and limited parking at the Support Cafes. "
+                , CopyText "Free transport is provided. Even if you can still use your own car, you may prefer to have a volunteer driver pick you up as there is no parking at Hope House and limited parking at the Support Cafés. "
                 ]
 
         InfoSixName ->
@@ -405,7 +405,7 @@ brandCopy key =
             CopySection
                 [ CopyText "Hope House"
                 , CopyText "Sessions are on Mondays and Thursdays between 10.30am and 3.30pm. Some people come regularly and others less often. Please contact us to work out whether these sessions are the right fit for you."
-                , CopyText "Support Cafes"
+                , CopyText "Support Cafés"
                 , CopyText "There’s no need to book, just drop in!"
                 , CopyList
                     [ CopyText "Monday from 1.30pm to 4pm at the Hub, Bondgate, Castle Donington, DE74 2NR"
@@ -506,16 +506,16 @@ brandCopy key =
             CopyText ""
 
         StoryTwo2Quote ->
-            CopyText "Having driven past Hall Lane Methodist Church many times and seen the board advertising the Support Cafe, one day I stopped, and my husband and I ventured in, thinking it was somewhere to enjoy a cup of tea. We found a warm welcome and discovered a place Colin could come every Wednesday for tea, cake, company and support."
+            CopyText "Having driven past Hall Lane Methodist Church many times and seen the board advertising the Support Café, one day I stopped, and my husband and I ventured in, thinking it was somewhere to enjoy a cup of tea. We found a warm welcome and discovered a place Colin could come every Wednesday for tea, cake, company and support."
 
         StoryTwo2ImageAlt ->
-            CopyText "A woman discovers a poster for the support cafe on a noticeboard."
+            CopyText "A woman discovers a poster for the support café on a noticeboard."
 
         StoryTwo2Message ->
             CopyText ""
 
         StoryTwo3Quote ->
-            CopyText "From the start I was able to leave Colin to enjoy a game of dominoes while I had a little time to myself and a chance to sort out doctors appointments etc. Soon he started going to two support cafes a week and to Hope House one day a week as well."
+            CopyText "From the start I was able to leave Colin to enjoy a game of dominoes while I had a little time to myself and a chance to sort out doctors appointments etc. Soon he started going to two support cafés a week and to Hope House one day a week as well."
 
         StoryTwo3ImageAlt ->
             CopyText "A woman smiling whilst getting her hair cut."
@@ -524,10 +524,10 @@ brandCopy key =
             CopyText ""
 
         StoryTwo4Quote ->
-            CopyText "Support Cafes and Hope House were a lifeline for not only for Colin , but for me as well. Sadly Colin died earlier this year, but I still benefit and love attending Coalville and Whitwick Support Cafe every Wednesday."
+            CopyText "Support Cafés and Hope House were a lifeline for not only for Colin , but for me as well. Sadly Colin died earlier this year, but I still benefit and love attending Coalville and Whitwick Support Café every Wednesday."
 
         StoryTwo4ImageAlt ->
-            CopyText "A woman enters the support cafe waving at other people attending."
+            CopyText "A woman enters the support café waving at other people attending."
 
         StoryTwo4Message ->
             CopyText ""
@@ -551,10 +551,10 @@ brandCopy key =
             CopyText "Since we asked, she said she would go away and look."
 
         StoryThree2Quote ->
-            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Cafe for a while, and then my wife felt it might be good for us both if I attend the day respite service at Hope House."
+            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Café for a while, and then my wife felt it might be good for us both if I attend the day respite service at Hope House."
 
         StoryThree2ImageAlt ->
-            CopyText "Illustration of a leaflet for Hope House the Support Cafe"
+            CopyText "Illustration of a leaflet for Hope House the Support Café"
 
         StoryThree2Message ->
             CopyText ""
