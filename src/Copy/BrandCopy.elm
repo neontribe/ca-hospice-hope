@@ -39,7 +39,7 @@ brandCopy key =
                 { action = DesktopInteractive
                 , category = "contact"
                 , icon = "note"
-                , href = "https://hospicehope.typeform.com/to/rGEewl"
+                , href = "https://www.surveymonkey.co.uk/r/J9JNJKG"
                 , displayHref = ""
                 , promptLong = "Contact us"
                 , promptShort = "Contact"
@@ -127,7 +127,7 @@ brandCopy key =
             CopyList
                 [ CopyText "Improve improving our ability to serve you relevant content via cookies"
                 , CopyText "Use Google Analytics to help us understand and improve the efficiency of the service provided"
-                , CopyText "To contact you with any information you have requested about our services via a form provided by Typeform"
+                , CopyText "To contact you with any information you have requested about our services via a form provided by SurveyMonkey"
                 ]
 
         PrivacySectionFourH3 ->
@@ -161,7 +161,7 @@ brandCopy key =
         PrivacySectionFiveList ->
             CopyList
                 [ CopyText "Google Analytics"
-                , CopyText "Typeform"
+                , CopyText "SurveyMonkey"
                 , CopyText "Neontribe Ltd."
                 ]
 
@@ -176,14 +176,14 @@ brandCopy key =
 
         PrivacySectionSixP2 ->
             CopyWithLink
-                { textBefore = "Typeform: When you contact us online to find out more information on Hospice Hope’s services you will submit your details through form provider Typeform. Typeform's privacy policy is available at"
-                , linkText = "https://admin.typeform.com/to/dwk6gt"
-                , destination = "https://admin.typeform.com/dwk6gt"
+                { textBefore = "SurveyMonkey: When you contact us online to find out more information on Hospice Hope’s services you will submit your details through form provider SurveyMonkey. SurveyMonkey's privacy policy is available at -"
+                , linkText = "https://www.surveymonkey.com/mp/legal/privacy-policy/"
+                , destination = "https://www.surveymonkey.com/mp/legal/privacy-policy/"
                 , textAfter = "."
                 }
 
         PrivacySectionSixP3 ->
-            CopyText "Neontribe: The website services provider, will be monitoring the success of the site via Google Analytics and will have access to the aggregated, anonymised Analytics data. They will also be monitoring the number of responses on Typeform but will not be able to view responses by the individuals\u{00A0} and do not process any collect in the form."
+            CopyText "Neontribe: The website services provider, will be monitoring the success of the site via Google Analytics and will have access to the aggregated, anonymised Analytics data. They will also be monitoring the number of responses on SurveyMonkey but will not be able to view responses by the individuals\u{00A0} and do not process any collect in the form."
 
         PrivacySectionSixP4 ->
             CopyWithLink
