@@ -476,7 +476,7 @@ brandCopy key =
             CopyText "Two illustrations side by side. One of a man looking worried and covering his ears. Another of a happy man eating a delicious roast dinner."
 
         StoryOne3Message ->
-            CopyText "I was feeling that way when I first heard about Hope House."
+            CopyText "I love most of the talks that they do, the activities they run and the food."
 
         StoryOne4Quote ->
             CopyText "Coming to Hospice Hope has given me something really good and new to do, it's so nice here and I like the fresh air, food, volunteers/staff and all the laughs we have!  There’s hope here and I’ll continue to come."
