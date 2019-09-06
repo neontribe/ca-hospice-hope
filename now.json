@@ -1,7 +1,7 @@
 {
     "name": "hospice-hope-contemplating-action",
     "scope": "ca-hospice-hope",
-    "alias": ["www.hospicehopestories.org.uk"],
+    "alias": ["www.hopestories.org.uk"],
     "builds": [
         {
             "src": "dist/**/*",
