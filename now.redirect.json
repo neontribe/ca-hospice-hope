@@ -1,0 +1,14 @@
+{
+    "name": "hospice-hope-contemplating-action-redirect",
+    "scope": "ca-hospice-hope",
+    "alias": ["hopestories.org.uk"],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 301,
+            "headers": {
+                "Location": "https://www.hopestories.org.uk/$1"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "hospice-hope-contemplating-action",
+    "scope": "ca-hospice-hope",
+    "alias": ["www.hopestories.org.uk"],
+    "builds": [
+        {
+            "src": "dist/**/*",
+            "use": "@now/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/dist/.*",
+            "status": 404,
+            "dest": "nothing"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/dist/$1"
+        }
+    ]
+}

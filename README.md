@@ -37,6 +37,16 @@ We're using [Travis](https://travis-ci.org).
 Encrypted vars can be added to `.travis.yml` using the travis cli tools as decribed in the [travis docs](https://docs.travis-ci.com/user/encryption-keys/#usage).
 Currently configured with GITHUB_TOKEN value.
 
-
 ### To Production
-- TBC
+The production is hosted using (now.sh)[https://now.sh].
+The process is manual and requires deploying two now apps. You can do that by installing now and deploying the separate now.json files.
+To speed this up you can make sure now is installed globally before running npx `yarn global add now`.
+
+Quickstart:
+```bash
+./build.sh
+npx now --prod
+npx now --prod -A now.redirect.json
+```
+
+This will require access to the Hospice Hope now account: https://zeit.co/ca-hospice-hope.
