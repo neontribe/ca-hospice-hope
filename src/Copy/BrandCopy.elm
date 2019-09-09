@@ -319,7 +319,7 @@ brandCopy key =
             CopySection
                 [ CopyText "The people who come to us all have illnesses that are seriously affecting their lives and are unlikely to get better."
                 , CopyText "Each week we help people continue to enjoy life through conversation and activities. Some sessions are for both those people and their carers, others are a chance for carers to take a break whilst we provide support."
-                , CopyText "If you live in North-West Leicestershire and have an illness like Parkinson's, heart failure or cancer and you think we could help you get the most out of life contact us."
+                , CopyText "If you live in North-West Leicestershire and have an illness like Parkinson's, heart failure or cancer, and you think we could help you get the most out of life, please contact us."
                 ]
 
         InfoTwoName ->
