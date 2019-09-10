@@ -76,7 +76,7 @@ brandCopy key =
             CopyText "Giving you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten"
 
         HomeP1 ->
-            CopyText "Hospice Hope provide care and support for people who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
+            CopyText "Hospice Hope provide care and support for people living in North West Leicestershire, who have illnesses that are seriously affecting their lives and are unlikely to get better. We know that it can sometimes be a struggle to make sense of what is happening, and we offer a safe place to listen, share and be heard. Whether you're feeling good right now, or really low, we provide safe places to share your  experiences and get support."
 
         HomeP2 ->
             CopyText "We do not provide residential care. Your local healthcare professional will be able to provide you information on hospices in your area that do provide this service."
@@ -333,7 +333,7 @@ brandCopy key =
 
         InfoTwoContent ->
             CopySection
-                [ CopyText "Hope House is a day respite service that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
+                [ CopyText "Hope House is a day respite service in North West Leicestershire that can give you support, independence and confidence as you face the challenges of living with an illness that can’t be beaten. During the day you can:"
                 , CopyList
                     [ CopyText "Talk to our trained staff and volunteers about your worries"
                     , CopyText "Take part in one of the planned activities like relaxation, exercise, gardening or arts and crafts"
@@ -388,7 +388,7 @@ brandCopy key =
 
         InfoFiveContent ->
             CopySection
-                [ CopyText "Hospice Hope’s services do not cost anything, even lunches and refreshments are free. If you can afford to make a donation you may, but it is not expected."
+                [ CopyText "Hospice Hope’s services do not cost anything, even lunches, refreshments and complementary therapies are free. If you can afford to make a donation you may, but it is not expected."
                 , CopyText "Free transport is provided. Even if you can still use your own car, you may prefer to have a volunteer driver pick you up as there is no parking at Hope House and limited parking at the Support Cafés. "
                 ]
 
@@ -542,7 +542,7 @@ brandCopy key =
             CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
 
         StoryThree1Quote ->
-            CopyText "I had had three heart attacks and was diagnosed with heart failure in my 50s. Me and my wife, Cheryl, didn’t know what support was out there. We asked a heart nurse if we could get any support and she didn’t know of anything."
+            CopyText "I had had three heart attacks and was diagnosed with heart failure in my 50s. Me and my wife, Cheryll, didn’t know what support was out there. We asked a heart nurse if we could get any support and she didn’t know of anything."
 
         StoryThree1ImageAlt ->
             CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
