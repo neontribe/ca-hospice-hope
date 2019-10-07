@@ -408,7 +408,7 @@ brandCopy key =
                 , CopyText "Support Cafés"
                 , CopyText "There’s no need to book, just drop in!"
                 , CopyList
-                    [ CopyText "Monday from 1.30pm to 4pm at the Hub, Bondgate, Castle Donington, DE74 2NR"
+                    [ CopyText "Monday 2pm to 4pm at the St Edward’s Church Hall, St Annes Lane, Castle Donington, DE74 2JH"
                     , CopyText "Tuesday from 1.30pm to 4pm at the Methodist Church, Melbourne Road, Ibstock, LE67 6JS"
                     , CopyText "Wednesday from 1.30pm to 4pm at the Methodist Church, Hall Lane, Whitwick, LE67 5PF"
                     , CopyText "Friday from 1.30pm to 4pm at the Legion House, South Street, Ashby de la Zouch, LE65 1BQ"
