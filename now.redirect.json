@@ -2,6 +2,13 @@
     "name": "hospice-hope-contemplating-action-redirect",
     "scope": "ca-hospice-hope",
     "alias": ["hopestories.org.uk"],
+    "builds": [
+        {
+            "//": "License will never actually be served, we just need now.sh to not try and run yarn build, as yarn build will fail.",
+            "src": "LICENSE",
+            "use": "@now/static"
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
