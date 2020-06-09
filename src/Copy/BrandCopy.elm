@@ -17,8 +17,8 @@ brandCopy key =
                 { action = DesktopDisplayOnly
                 , category = "phone"
                 , icon = "phone"
-                , href = "tel:01530222079"
-                , displayHref = "01530" ++ "\u{00A0}" ++ "222079"
+                , href = "tel:07935800658"
+                , displayHref = "07935" ++ "\u{00A0}" ++ "800658"
                 , promptLong = "Call us"
                 , promptShort = "Call"
                 }
