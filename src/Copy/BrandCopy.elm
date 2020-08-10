@@ -361,18 +361,20 @@ brandCopy key =
                 ]
 
         InfoFourName ->
-            CopyText "Worried our group sessions are not for you?"
+            CopyText "Why use a befriending service?"
 
         InfoFourSlug ->
-            CopyText "worried-not-for-you"
+            CopyText "befriending-service"
 
         InfoFourIcon ->
             CopyText "people"
 
         InfoFourContent ->
             CopySection
-                [ CopyText "Lots of people tell us they’re worried that everyone here will be older than them. But people of all ages find themselves dealing with an unexpected illness. People here will probably be more like you than you think."
-                , CopyText "Many people hate the idea of being forced into an activity. We promise that won’t happen. You choose when to take part in activities. You can choose whether you want to talk or not. Some people just enjoy the company and knowing there are people who are experiencing similar things."
+                [ CopyText "As we make changes to our day to day lives to keep ourselves and others physically healthy, we know that lots of us will be feeling anxious and lonely right now. We may find we spend more time on our own or isolated from others. This can sometimes feel lonely, boring or make us miss friends or family."
+                , CopyText "If you or someone you know is missing the joy of regular conversation, Hospice Hope offers a free befriending service."
+                , CopyText "We will match you very carefully with a volunteer who we think you will get along with. They will call you weekly at a time that works for you. "
+                , CopyText "Ready for your weekly call? Then get in touch and we'll get to work."
                 ]
 
         InfoFiveName ->
@@ -403,6 +405,7 @@ brandCopy key =
         InfoSixContent ->
             CopySection
                 [ CopyText "Hospice Hope’s services do not cost anything, even our counselling sessions are free. If you can afford to make a donation you may, but it is not expected."
+                , CopyText "Our services are now all online for now. We know that not everyone has the equipment to get involved. So we have launched a tablet loan scheme so that everyone can join in. If you or anyone you know wants to use our services but doesn’t have the equipment, then get in touch today. We can loan you a device and provide support for using it."
                 ]
 
         StoriesTitleH2 ->
