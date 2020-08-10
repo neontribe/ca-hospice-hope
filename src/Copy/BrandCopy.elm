@@ -481,136 +481,136 @@ brandCopy key =
             CopyText "It helps to know there is someone I can talk to. It makes me feel a little less alone."
 
         StoryTwoTitle ->
-            CopyText "Shane"
+            CopyText "Hazel and Colin"
 
         StoryTwoTeaser ->
-            CopyText "Life was seeming a little too much for Shane when a friend suggested he attend day respite at Hope House."
+            CopyText "After Hazel’s husband Colin was diagnosed with Progressive Supranuclear Palsy they both struggled to adjust and needed a little extra support."
 
         StoryTwoTeaserImageAlt ->
-            CopyText "Illustrations of two people happily chatting."
+            CopyText "Illustration of a woman smiling whilst getting her hair cut."
 
         StoryTwo1Quote ->
-            CopyText "I have Wolfram syndrome, a rare genetic disorder, and can go through phases of feeling a little bit down or where life seems a bit too much, even with the support of Toby my service dog."
+            CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks."
 
         StoryTwo1ImageAlt ->
-            CopyText "Illustration of a man in a dark room cuddling his service dog, Toby."
+            CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
 
         StoryTwo1Message ->
-            CopyText "I was feeling that way when I first heard about Hope House."
+            CopyText ""
 
         StoryTwo2Quote ->
-            CopyText "I found out about Hope House through a friend that used to be my befriender – the person who matched us in her previous job had started working there! I googled it, read about it, and then got in contact."
+            CopyText "Having driven past Hall Lane Methodist Church many times and seen the board advertising the Support Café, one day I stopped, and my husband and I ventured in, thinking it was somewhere to enjoy a cup of tea. We found a warm welcome and discovered a place Colin could come every Wednesday for tea, cake, company and support."
 
         StoryTwo2ImageAlt ->
-            CopyText "Drawing of a man Googling Hope House. There is a frame of Toby his dog in the background."
+            CopyText "A woman discovers a poster for the support café on a noticeboard."
 
         StoryTwo2Message ->
             CopyText ""
 
         StoryTwo3Quote ->
-            CopyText "Before I came I was worried about the noise and what it would feel like, I didn’t know what to expect. But I was looking forward to meeting people.  And when I came it felt like a home from home."
+            CopyText "From the start I was able to leave Colin to enjoy a game of dominoes while I had a little time to myself and a chance to sort out doctors appointments etc. Soon he started going to two support cafés a week and to Hope House one day a week as well."
 
         StoryTwo3ImageAlt ->
-            CopyText "Two illustrations side by side. One of a man looking worried and covering his ears. Another of a happy man eating a delicious roast dinner."
+            CopyText "A woman smiling whilst getting her hair cut."
 
         StoryTwo3Message ->
-            CopyText "I love most of the talks that they do, the activities they run and the food."
+            CopyText ""
 
         StoryTwo4Quote ->
-            CopyText "Coming to Hospice Hope has given me something really good and new to do, it's so nice here and I like the fresh air, food, volunteers/staff and all the laughs we have!  There’s hope here and I’ll continue to come."
+            CopyText "Support Cafés and Hope House were a lifeline for not only for Colin , but for me as well. Sadly Colin died earlier this year, but I still benefit and love attending Coalville and Whitwick Support Café every Wednesday."
 
         StoryTwo4ImageAlt ->
-            CopyText "Illustrations of two people happily chatting. Shane’s service dog is sitting by his side. "
+            CopyText "A woman enters the support café waving at other people attending."
 
         StoryTwo4Message ->
             CopyText ""
 
         StoryThreeTitle ->
-            CopyText "Hazel and Colin"
+            CopyText "Gary"
 
         StoryThreeTeaser ->
-            CopyText "After Hazel’s husband Colin was diagnosed with Progressive Supranuclear Palsy they both struggled to adjust and needed a little extra support."
+            CopyText "Gary struggled to find support after his 3 heart attacks and didn’t think anyone would understand how he was feeling."
 
         StoryThreeTeaserImageAlt ->
-            CopyText "Illustration of a woman smiling whilst getting her hair cut."
+            CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
 
         StoryThree1Quote ->
-            CopyText "My husband Colin had Progressive Supranuclear Palsy, and the symptoms at the beginning meant he had trouble with his balance and he often fell backwards. As the disease progressed,  he became very frustrated with the inability to do everyday tasks."
+            CopyText "I had had three heart attacks and was diagnosed with heart failure in my 50s. Me and my wife, Cheryll, didn’t know what support was out there. We asked a heart nurse if we could get any support and she didn’t know of anything."
 
         StoryThree1ImageAlt ->
-            CopyText "A woman and man hugging. The man looks frustrated. There is a broken cup in the background."
+            CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
 
         StoryThree1Message ->
-            CopyText ""
+            CopyText "Since we asked, she said she would go away and look."
 
         StoryThree2Quote ->
-            CopyText "Having driven past Hall Lane Methodist Church many times and seen the board advertising the Support Café, one day I stopped, and my husband and I ventured in, thinking it was somewhere to enjoy a cup of tea. We found a warm welcome and discovered a place Colin could come every Wednesday for tea, cake, company and support."
+            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Café for a while, and then my wife felt it might be good for us both if I attend the day respite service at Hope House."
 
         StoryThree2ImageAlt ->
-            CopyText "A woman discovers a poster for the support café on a noticeboard."
+            CopyText "Illustration of a leaflet for Hope House the Support Café"
 
         StoryThree2Message ->
             CopyText ""
 
         StoryThree3Quote ->
-            CopyText "From the start I was able to leave Colin to enjoy a game of dominoes while I had a little time to myself and a chance to sort out doctors appointments etc. Soon he started going to two support cafés a week and to Hope House one day a week as well."
+            CopyText "Before I went I was worried about what went on, as I had no idea on what to expect. I was worried because it was new and unknown."
 
         StoryThree3ImageAlt ->
-            CopyText "A woman smiling whilst getting her hair cut."
+            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s mistaken ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks."
 
         StoryThree3Message ->
-            CopyText ""
+            CopyText "I didn’t know if it was the right thing for me."
 
         StoryThree4Quote ->
-            CopyText "Support Cafés and Hope House were a lifeline for not only for Colin , but for me as well. Sadly Colin died earlier this year, but I still benefit and love attending Coalville and Whitwick Support Café every Wednesday."
+            CopyText "On attending I found people in similar situations to me, who knew what I was talking about and knew how I was feeling.  It’s really improved the social side of my life, and I enjoy being with other people."
 
         StoryThree4ImageAlt ->
-            CopyText "A woman enters the support café waving at other people attending."
+            CopyText "Illustration of a man looking relaxed and happy in a garden. He is in deep conversation with a woman who is smiling."
 
         StoryThree4Message ->
             CopyText ""
 
         StoryFourTitle ->
-            CopyText "Gary"
+            CopyText ""
 
         StoryFourTeaser ->
-            CopyText "Gary struggled to find support after his 3 heart attacks and didn’t think anyone would understand how he was feeling."
+            CopyText ""
 
         StoryFourTeaserImageAlt ->
-            CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
+            CopyText ""
 
         StoryFour1Quote ->
-            CopyText "I had had three heart attacks and was diagnosed with heart failure in my 50s. Me and my wife, Cheryll, didn’t know what support was out there. We asked a heart nurse if we could get any support and she didn’t know of anything."
+            CopyText ""
 
         StoryFour1ImageAlt ->
-            CopyText "Illustration of a man and a woman in their fifties sitting across from a nurse who looks confused."
+            CopyText ""
 
         StoryFour1Message ->
-            CopyText "Since we asked, she said she would go away and look."
+            CopyText ""
 
         StoryFour2Quote ->
-            CopyText "The heart nurse did some research and came back to us with an address for a Hospice Hope support café, where me and my wife could go. We attended the Support Café for a while, and then my wife felt it might be good for us both if I attend the day respite service at Hope House."
+            CopyText ""
 
         StoryFour2ImageAlt ->
-            CopyText "Illustration of a leaflet for Hope House the Support Café"
+            CopyText ""
 
         StoryFour2Message ->
             CopyText ""
 
         StoryFour3Quote ->
-            CopyText "Before I went I was worried about what went on, as I had no idea on what to expect. I was worried because it was new and unknown."
+            CopyText ""
 
         StoryFour3ImageAlt ->
-            CopyText "Illustration of a confused man surrounded by thought bubbles. The bubbles contain Gary’s mistaken ideas of what Hope House was; there is a drawing of a therapy couch, two older people, a house and question marks."
+            CopyText ""
 
         StoryFour3Message ->
-            CopyText "I didn’t know if it was the right thing for me."
+            CopyText ""
 
         StoryFour4Quote ->
-            CopyText "On attending I found people in similar situations to me, who knew what I was talking about and knew how I was feeling.  It’s really improved the social side of my life, and I enjoy being with other people."
+            CopyText ""
 
         StoryFour4ImageAlt ->
-            CopyText "Illustration of a man looking relaxed and happy in a garden. He is in deep conversation with a woman who is smiling."
+            CopyText ""
 
         StoryFour4Message ->
             CopyText ""
